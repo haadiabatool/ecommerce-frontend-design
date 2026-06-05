@@ -1,0 +1,2693 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ecommerce-website</title>
+</head>
+
+<body class="bg-[#EFF2F4]">
+
+  <!-- Header Section✅ -->
+  <nav class="sticky top-0 bg-white z-50">
+    <header class="w-360 h-21.5 bg-white ">
+
+      <div class="relative max-w-350 mx-auto px-15 py-5 flex flex-row items-center justify-between flex-wrap gap-6">
+        <!-- Logo Brand -->
+        <div>
+          <img src="\src\assets\logo-colored.png" alt="Brand Logo" class="relative w-37.5 h-11.5 left-7.5">
+        </div>
+
+        <!-- Search Bar -->
+        <div class="flex flex-row items-center w-166.25 h-10 border border-[#0D6EFD] border-2 rounded-md overflow-hidden">
+
+          <!-- Search Input -->
+          <input type="text" placeholder="Search" class="w-105 h-full px-4 outline-none text-sm" />
+
+          <!-- Category Section -->
+          <div class="flex items-center justify-between w-36.25 h-full px-3 border-l border-[#0D6EFD] bg-white">
+
+            <span class="text-sm text-[#1C1C1C]">All Category</span>
+
+            <!-- DropDown image -->
+            <img src="/src/assets/drop-down.png" alt="dropdown icon" class="w-4 h-4" />
+          </div>
+
+          <!-- Search Button -->
+          <button class="w-25 h-full bg-[#0D6EFD] text-white text-sm font-medium">Search</button>
+
+        </div>
+
+        <!-- Action Section where Profile,Message, Order, Cart -->
+        <div class="relative flex items-center gap-6 -top-1/4">
+
+          <!-- Profile Section -->
+          <div class="flex flex-col items-center text-center">
+            <img alt="Profile" src="\src\assets\Action\Profile.png" class="w-5">
+            <span class="text-sm text-gray-600">Profile</span>
+          </div>
+
+          <!-- Message Section -->
+          <div class="flex flex-col items-center text-center">
+            <img alt="Message" src="\src\assets\Action\Message.png" class="w-5">
+            <span class="text-sm text-gray-600">Message</span>
+          </div>
+
+          <!-- Orders Section -->
+          <div class="flex flex-col items-center text-center">
+            <img alt="Order" src="\src\assets\Action\Orders.png" class="w-5">
+            <span class="text-sm text-gray-600">Orders</span>
+          </div>
+
+          <!-- Cart Section -->
+          <div class="flex flex-col items-center text-center">
+            <img alt="Cart" src="\src\assets\Action\Cart.png" class="w-5">
+            <span class="text-sm text-gray-600">My Cart</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- layout/Navbar Section✅ -->
+    <nav
+      class="relative w-360px h-14 bg-white top-px  border border-t-[#E0E0E0] border-b-[#E0E0E0] border-l-0 border-r-0">
+
+      <!-- NAVBAR List -->
+      <div class="flex flex-row text-[#1C1C1C]">
+
+        <ul class="relative flex w-155 h-6 top-4 left-28.5 gap-5">
+          <li>
+            <img src="\src\assets\Setting.png" alt="Setting" class=" absolute w-4.5 h-3 top-1.5 -left-1">
+          </li>
+          <li class="w-23 h-5.5">All category</li>
+          <li class="w-19.25 h-5.5 ">Hot offers</li>
+          <li class="w-19.75 h-5.5">Gift boxes</li>
+          <li class="w-15.75 h-22px">Projects</li>
+          <li class="w-20.25 h-5.5">Menu item</li>
+
+          <li class="w-9 h-5.5">Help</li>
+          <li>
+            <img src="\src\assets\drop-down.png" alt="DropDown Image"
+              class="relative w-3 h-[7.41px] top-[8.3px] left-1.5">
+          </li>
+        </ul>
+
+        <ul class="absolute flex top-4 left-270.25">
+          <li>English, USD</li>
+
+          <!-- Drop Down Image -->
+          <li>
+            <img src="\src\assets\drop-down.png" alt="DropDown Image"
+              class="relative w-3 h-[7.41px] top-[8.3px] left-1.5">
+          </li>
+        </ul>
+
+        <ul class="relative flex left-10 w-155 h-6 ">
+          <li class="relative top-4 left-150">Ship to</li>
+
+          <!-- Germany Flag -->
+          <li>
+            <img src="\src\assets\Flags\Germany.png" alt="Germany Flag" class="absolute top-5 left-165">
+          </li>
+
+          <!-- Drop Down Image -->
+          <li>
+            <img src="\src\assets\drop-down.png" alt="DropDown Image" class="absolute top-6 left-173">
+          </li>
+        </ul>
+
+      </div>
+
+    </nav>
+  </nav>
+
+  <!-- Main Section ✅-->
+  <main
+    class="relative w-295 h-100 top-6.75 left-32.5 bg-white flex flex-row items-start gap-1.75 border border-[#DEE2E7] rounded-md">
+
+    <div class="relative  w-62.5 h-90 top-5 left-3.5 ">
+      <ul class="flex flex-col gap-3">
+        <li class="relative bg-[#E5F1FF] rounded-md w-62.5 h-10">
+          <p class="relative top-1.75 left-2.5">
+            Automobiles
+          </p>
+        </li>
+        <li class="relative left-2.5">Clothes and wear</li>
+        <li class="relative left-2.5">Home interiors</li>
+        <li class="relative left-2.5">Computer and tech</li>
+        <li class="relative left-2.5">Tools, equipments</li>
+        <li class="relative left-2.5">Sports and outdoor</li>
+        <li class="relative left-2.5">Animal and pets</li>
+        <li class="relative left-2.5">Machinery tools</li>
+        <li class="relative left-2.5">More category</li>
+      </ul>
+
+    </div>
+
+    <div class="w-166.25 shrink-0">
+      <img src="\src\assets\Background\Background.png" alt="Background"
+        class="relative h-90 left-5 top-4.25 border border-gray-200 object-cover">
+      <div class="relative flex flex-col left-17.5 -top-72.5">
+        <h1 class="relative w-50.25 h-8.5 top-5 text-[28px] font-normal tracking-[0%] leading-[100%] text-black">Latest
+          Trending </h1>
+        <h1 class="relative w-63.25 h-9.75 top-5 text-[32px] font-bold tracking-[0%] leading-[100%] text-black">
+          Electronic items</h1>
+        <button class="relative w-29.75 h-10 top-10 pr-4 pl-4 rounded-md border border-[#FFFFFF] bg-[#FFFFFF]">Learn
+          more</button>
+      </div>
+
+    </div>
+
+    <div class="relative flex flex-col w-50 h-37.5 left-7.5 top-5  rounded-md bg-[#E3F0FF] pl-2.5 pr-2.5 gap-2.5">
+      <div class="flex flex-row">
+        <img src="\src\assets\Avatar1.png" alt="Avatar" class="relative w-11 h-11 top-2.5 left-2.5">
+        <p class="relative left-3.75 top-2.5 text-[16px] font-[400px] ">
+          Hi, user <br> let’s get stated
+        </p>
+      </div>
+      <button class="bg-linear-to-r from-[#127FFF] to-[#0067FF] w-45 h-7.5 rounded-md relative pr-2.5 pl-2.5">Join
+        us</button>
+      <button class="bg-white w-45 h-7.5 rounded-md relative">Log in</button>
+    </div>
+
+    <div class="flex flex-col relative right-43.75">
+      <div class="relative w-50 h-23.75 rounded-md top-45 bg-[#F38332]">
+        <p class=" relative text-white w-36 h-14.25 left-3.75 top-2.5 text-[16px] font-[400px]">Get US $10 off <br>with
+          a new <br>supplier</p>
+      </div>
+
+      <div class="relative w-50 h-23.75 rounded-md top-47.5 bg-[#55BDC3]">
+        <p class="relative text-white w-36 h-14.75 left-3.75 top-2.5 text-[16px] font-[400px]">Send quotes with<br>
+          supplier<br> preferences</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Deals and Offers where tech product are placed✅ -->
+  <section class="relative bg-white border border-[#DEE2E7] w-295 h-60 top-12.5 rounded-md left-32.5 flex flex-row">
+    <div class="relative w-70 h-28.25 top-3.75 rounded-sm left-5 ">
+      <h1 class="text-[20px] font-semibold tracking-[0%] leading-[100%] text-black">Deals and offers</h1>
+      <p class="text-[#8B96A5]">Hygiene equipments</p>
+      <div class="relative flex flex-row w-49.5 h-12.5 top-3.75 gap-1.25">
+        <div class="text-white bg-[#606060] w-11.25 h-12.5 rounded-sm flex flex-col justify items-center">
+          <p class="font-bold text-[16px]">04</p>
+          <p class="font-[400px] text-[12px]">Days</p>
+        </div>
+
+        <div class="text-white bg-[#606060] w-11.25 h-12.5 rounded-sm flex flex-col justify items-center">
+          <p class="font-bold text-[16px]">13</p>
+          <p class="font-[400px] text-[12px]">Hour</p>
+        </div>
+
+        <div class="text-white bg-[#606060] w-11.25 h-12.5 rounded-sm flex flex-col justify items-center">
+          <p class="font-bold text-[16px]">34</p>
+          <p class="font-[400px] text-[12px]">Min</p>
+        </div>
+
+        <div class="text-white bg-[#606060] w-11.25 h-12.5 rounded-sm flex flex-col justify items-center">
+          <p class="font-bold text-[16px]">56</p>
+          <p class="font-[400px] text-[12px]">Sec</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tech Images -->
+    <div class="relative flex flex-row">
+      <!-- Watch Image -->
+      <div class="relative w-44.75 h-58.75 border-0 border-l border-gray-200">
+        <img src="\src\assets\Tech\Watch.png" alt="Watch Image"
+          class="relative w-35 h-35 top-2.5 left-2.5 gap-7 object-contain">
+        <p class=" relative top-3.75 flex flex-col justify-center items-center">Smart watches</p>
+        <button
+          class="relative text-[#EB001B] bg-[#FFE3E3] w-15.25 h-7 rounded-[29px] left-14.25 top-4.75">-25%</button>
+      </div>
+
+      <!-- Laptop Image -->
+      <div class="relative w-44.75 h-58.75 border-0 border-l border-gray-200">
+        <img src="\src\assets\Tech\Laptop.png" alt="Laptop Image"
+          class="relative w-35 h-35 left-5 top-2 gap-7 object-contain">
+        <p class=" relative top-[15px] flex flex-col justify-center items-center">Laptops</p>
+        <button
+          class="relative text-[#EB001B] bg-[#FFE3E3] w-15.25 h-7 rounded-[29px] left-14.25 top-4.75">-15%</button>
+      </div>
+
+      <!-- Camera Image -->
+      <div class="relative w-44.75 h-58.75 border-0 border-l border-gray-200">
+        <img src="\src\assets\Tech\Camera.png" alt="Camera Image"
+          class="relative w-35 h-35 top-2 left-5 gap-7 object-contain">
+        <p class=" relative top-[15px] flex flex-col justify-center items-center">GoPro cameras</p>
+        <button
+          class="relative text-[#EB001B] bg-[#FFE3E3] w-15.25 h-7 rounded-[29px] left-14.25 top-4.75">-40%</button>
+      </div>
+
+      <!-- Headset Image -->
+      <div class="relative w-44.75 h-58.75 border-0 border-l border-l-gray-200">
+        <img src="\src\assets\Tech\Headset.png" alt="Headset Image"
+          class="relative w-35 h-35 top-2 left-5 gap-9 object-contain">
+        <p class=" relative top-[15px] flex flex-col justify-center items-center">Headphones</p>
+        <button
+          class="relative text-[#EB001B] bg-[#FFE3E3] w-15.25 h-7 rounded-[29px] left-14.25 top-4.75">-25%</button>
+      </div>
+
+      <!-- Mobile Image -->
+      <div class="relative w-44.75 h-58.75 border-0 border-l border-l-gray-200">
+        <img src="\src\assets\Tech\Mobile.png" alt="Mobile Image"
+          class="relative w-35 h-35 left-5 top-2 gap-9 object-contain">
+        <p class=" relative top-[15px] flex flex-col justify-center items-center">Canon camreras</p>
+        <button
+          class="relative text-[#EB001B] bg-[#FFE3E3] w-15.25 h-7 rounded-[29px] left-14.25 top-4.75">-25%</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Home Products are present here✅ -->
+  <section class="relative w-295 h-64.25 top-17.5 left-32.5 bg-white border border-[#E0E0E0]">
+    <div class="grid grid-cols-[280px_repeat(4,1fr)] grid-rows-2 gap-0">
+      <!-- Decore Image -->
+      <div class="relative col-span-1 row-span-2 border border-green-200 ">
+        <img src="\src\assets\Background\home-decore.png" alt="Home decore">
+        <p
+          class="absolute top-7.5 left-[25px] font-[600px] text-[20px] leading-[26px] -tracking-[0.2px] text-[#1C1C1C] font-semibold">
+          Home and <br>outdoor</p>
+        <button
+          class="absolute w-[123px] h-[40px] rounded-[6px] pr-[16px] pl-[16px] top-[90px] left-[25px] font-[500px] text-[16px] bg-white ">Source
+          now</button>
+      </div>
+      <!-- Chair Image -->
+      <div class="relative w-full h-[127px] border-0 border-r border-b border-[#E0E0E0]">
+        <img src="\src\assets\interior\Chair.png" alt="Chair Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[27px] pl-[20px]">Soft chairs</p>
+        <span class="absolute w-[138px] h-[19px] top-[57px] pl-[26px] text-[#8B96A5] text-[13px]">From <br>USD 19</span>
+      </div>
+
+      <!-- Lamp -->
+      <div class=" relative w-full h-[127px] border-0 border-r border-b border-[#E0E0E0]">
+        <img src="\src\assets\interior\Lamp.png" alt="Chair Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[27px] pl-[20px]">Sofa & chair</p>
+        <span class="absolute w-[138px] h-[19px] top-[57px] pl-[26px] text-[#8B96A5] text-[13px]">From <br>USD 19</span>
+      </div>
+
+      <!-- Form -->
+      <div class="relative w-full h-[127px]  border-0 border-r border-b border-[#E0E0E0]">
+        <img src="\src\assets\interior\Form.png" alt="Chair Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[27px] pl-[20px]">Kitchen dishes</p>
+        <span class="absolute w-[138px] h-[19px] top-[57px] pl-[26px] text-[#8B96A5] text-[13px]">Form <br>USD 19</span>
+      </div>
+
+      <!-- Pot -->
+      <div class="relative w-full h-[127px] border-0 border-b border-[#E0E0E0]">
+        <img src="\src\assets\interior\Pot.png" alt="Chair Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[27px] pl-[20px]">Smart watches</p>
+        <span class="absolute w-[138px] h-[19px] top-[57px] pl-[26px] text-[#8B96A5] text-[13px]">Form <br>USD 19</span>
+      </div>
+
+      <!-- Juicer -->
+      <div class="w-full h-[127px] border-0 border-r border-[#E0E0E0]">
+        <img src="\src\assets\interior\Juicer.png" alt="Chair Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[157px] pl-[20px]">Kitchen mixer</p>
+        <span class="absolute w-[138px] h-[19px] top-[187px] pl-[26px] text-[#8B96A5] text-[13px]">Form <br>USD
+          100</span>
+      </div>
+
+      <!-- Mixer -->
+      <div class="w-full h-[127px] border-0 border-r border-[#E0E0E0]">
+        <img src="\src\assets\interior\maker.png" alt="Chair Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[157px] pl-[20px]">Blenders</p>
+        <span class="absolute w-[138px] h-[19px] top-[187px] pl-[26px] text-[#8B96A5] text-[13px]">Form <br>USD
+          39</span>
+      </div>
+
+      <!-- Home Appliance -->
+      <div class="w-full h-[127px] border-0 border-r border-[#E0E0E0]">
+        <img src="\src\assets\interior\home-appliance.png" alt="Chair Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[157px] pl-[20px]">Home appliance</p>
+        <span class="absolute w-[138px] h-[19px] top-[187px] pl-[26px] text-[#8B96A5] text-[13px]">Form <br>USD
+          19</span>
+      </div>
+
+      <!-- Tree -->
+      <div class="w-full h-[127px] ">
+        <img src="\src\assets\interior\tree.png" alt="Chair Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[157px] pl-[20px]">Coffee maker</p>
+        <span class="absolute w-[138px] h-[19px] top-[187px] pl-[26px] text-[#8B96A5] text-[13px]">Form <br>USD
+          10</span>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Tech Section ✅ -->
+  <section class="relative w-[1180px] h-[257px] top-[90px] left-[130px] border border-gray-200 bg-white">
+    <div class="grid grid-cols-[280px_repeat(4,1fr)] grid-rows-2">
+
+      <!-- Decore Image -->
+      <div class="relative col-span-1 row-span-2 border border-green-200 ">
+        <img src="\src\assets\Background\tech-background.png" alt="tech-background image" class="w-[280px] h-[257px]">
+        <p
+          class="absolute top-[20px] left-[25px] font-[600px] text-[20px] leading-[26px] -tracking-[0.2px] text-[#1C1C1C] font-semibold">
+          Consumer <br> electronics and<br> gadgets</p>
+        <button
+          class="absolute w-[123px] h-[40px] rounded-[6px] pr-[16px] pl-[16px] top-[100px] left-[25px] font-[500px] text-[16px] bg-white ">Source
+          now</button>
+      </div>
+
+      <!-- Smart watches Image -->
+      <div class="relative w-full h-[127px] border-0 border-r border-b border-[#E0E0E0]">
+        <img src="\src\assets\Tech\Watch.png" alt="watch Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[27px] pl-[20px]">Smart watches</p>
+        <span class="absolute w-[138px] h-[19px] top-[57px] pl-[26px] text-[#8B96A5] text-[13px]"> Form <br>USD
+          19</span>
+      </div>
+
+      <!-- Cameras Image -->
+      <div class="w-full h-[127px] border-0 border-r border-b border-[#E0E0E0]">
+        <img src="\src\assets\Tech\Camera.png" alt="Camera Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[27px] pl-[20px]">Cameras</p>
+        <span class="absolute w-[138px] h-[19px] top-[57px] pl-[26px] text-[#8B96A5] text-[13px]">Form <br>USD 89</span>
+      </div>
+
+      <!--Headphones Image-->
+      <div class="w-full h-[127px] border-0 border-r border-b border-[#E0E0E0]">
+        <img src="\src\assets\electronics-gadgets\headphone.png" alt="Headphones Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[27px] pl-[20px]">Headphones</p>
+        <span class="absolute w-[138px] h-[19px] top-[57px] pl-[26px] text-[#8B96A5] text-[13px]">Form <br>USD 10</span>
+      </div>
+
+      <!-- Electric Kattle Image -->
+      <div class="w-full h-[127px] border-0 border-b border-[#E0E0E0]">
+        <img src="\src\assets\electronics-gadgets\electric-kattle.png" alt="electric Kattle Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[27px] pl-[20px]">Smart watches</p>
+        <span class="absolute w-[138px] h-[19px] top-[57px] pl-[26px] text-[#8B96A5] text-[13px]">Form <br>USD 90</span>
+      </div>
+
+      <!-- Headset Image-->
+      <div class="w-full h-[127px] border-0 border-r border-[#E0E0E0]">
+        <img src="\src\assets\Tech\Headset.png" alt="Headset Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[157px] pl-[20px]">Kitchen mixer</p>
+        <span class="absolute w-[138px] h-[19px] top-[187px] pl-[26px] text-[#8B96A5] text-[13px]">Form <br>USD
+          100</span>
+      </div>
+
+      <!-- Laptop Image -->
+      <div class="w-full h-31.75 border-0 border-r border-[#E0E0E0]">
+        <img src="\src\assets\Tech\Laptop.png" alt="Laptop Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[157px] pl-[20px]">Laptops & PC</p>
+        <span class="absolute w-[138px] h-[19px] top-[187px] pl-[26px] text-[#8B96A5] text-[13px]">Form <br>USD
+          340</span>
+      </div>
+
+      <!-- Tablet-->
+      <div class="w-full h-[127px] border-0 border-r border-[#E0E0E0]">
+        <img src="\src\assets\Tech\phone.png" alt="Tablet Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[157px] pl-[20px]">Blenders</p>
+        <span class="absolute w-[138px] h-[19px] top-[187px] pl-[26px] text-[#8B96A5] text-[13px]">Form <br>USD
+          35</span>
+      </div>
+
+      <!--Smartphones-->
+      <div class="w-full h-[127px]">
+        <img src="\src\assets\electronics-gadgets\phone-red.png" alt="Smartphones Image"
+          class="relative w-[82px] h-[82px] left-[130px] top-[40px] object-cover">
+        <p class="absolute font-[400px] text-[16px] w-[138px] h-[19px] top-[157px] pl-[20px]">Smartphones</p>
+        <span class="absolute w-[138px] h-[19px] top-[187px] pl-[26px] text-[#8B96A5] text-[13px]">Form <br>USD
+          10</span>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ✅ -->
+  <section class="relative w-[1180px] h-[420px] top-[110px] left-[130px] border border-[#E0E0E0] bg-white">
+    <img src="\src\assets\Background\building-background.png" alt="background">
+    <div clas="relative w-[440px] h-[139px]">
+      <p
+        class="absolute top-[70px] font-[600px] font-semibold tracking-[0%] leading-[100%] text-[32px] left-[40px] text-[#FFFFFF]">
+        An easy way to send <br>requests to all suppliers</p>
+      <p class="absolute top-[135px] left-[40px] font-[400px] tracking-[0%] leading-[24px] text-[16px] text-[#FFFFFF]">
+        Lorem ipsum dolor sit amet, consectetur adipisicing<br> elit, sed do eiusmod tempor
+        incididunt.</p>
+    </div>
+
+    <div class="absolute w-[491px] h-[346px] left-[680px] rounded-[6px] top-[50px] bg-white">
+      <p
+        class="relative w-[332px] h-[28px] top-[10px] left-[20px] font-[600px] font-semibold text-[20px] leading-[28px] text-[#1C1C1C]">
+        Send quote to suppliers</p>
+      <p class="relative w-[440px] h-[40px] top-[15px] left-[20px] p-[10px] border border-[#DEE2E7]">What item you need?
+      </p>
+      <textarea class="relative w-[440px] h-[73px] top-[25px] left-[20px] p-[10px] border border-[#DEE2E7]"
+        placeholder="Type more details"></textarea>
+      <div class="flex flex-row">
+        <p class="absolute w-[230px] h-[40px] top-[180px] left-[20px] rounded-[6px] border border-[#DEE2E7]">Quantity
+        </p>
+        <div class="flex flex-row">
+          <p class="absolute w-[111px] h-[40px] top-[180px] left-[280px] rounded-[6px] border border-[#DEE2E7]">Pcs</p>
+          <img src="src\assets\drop-down.png" alt="drop-down image" class="absolute top-[190px] left-[310px]">
+        </div>
+      </div>
+      <button
+        class="relative w-[128px] h-[40px] rounded-[6px] top-[100px] left-[20px] pl-[16px] pr-[16px] text-white bg-gradient-to-r from-[#127FFF] to-[#0067FF]">Send
+        Inquiry</button>
+    </div>
+  </section>
+
+  <!-- Recommanded section✅ -->
+  <main class="relative w-[1180px] h-[696px] top-[125px] left-[130px] ">
+    <p class="relative w-[242px] h-[32px] font-[600px] font-semibold text-[24px] leading-[32px] tracking-[-0.2px]">
+      Recommended items</p>
+
+    <div class="relative grid grid-cols-5 grid-rows-2 h-[640px] top-[10px] gap-5 ">
+
+      <!-- Image 1 T-shirt -->
+      <div class=" bg-white w-[220px] h-[310px] rounded-[6px] border border-[#E0E0E0]">
+        <div
+          class="relative w-[210.64px] h-[201.21px] top-[3.35px] left-[4.68px] rounded-[4px] border border-green-300">
+          <img src="\src\assets\cloth\shirt.png" alt="shirt image"
+            class="relative w-[150.22px] h-[170.67px] top-[14.22px] left-[24.89px] ">
+        </div>
+        <span
+          class="relative w-[65.53px] h-[21.24px] top-[10px] left-[15px] font-[500px] text-[16px] leading-[22px] tracking-[0px] text-[#1C1C1C] font-semibold">$10.30</span>
+        <p class="relative w-[186px] h-[53px] left-[16px] top-[10px] text-[#8B96A5] font-[400px] text-[16px]">T-shirts
+          with multiple colors, for men</p>
+      </div>
+
+      <!-- Image 2 hoodie -->
+      <div class="relative w-[220px] h-[310px] bg-white  rounded-[6px] border border-[#E0E0E0] ">
+        <div
+          class="relative w-[210.64px] h-[201.21px] top-[3.35px] left-[4.68px] rounded-[4px] border border-green-300">
+          <img src="\src\assets\cloth\hoodie.png" alt="hoodie image"
+            class="relative w-[150.22px] h-[170.67px] top-[14.22px] left-[24.89px]">
+        </div>
+        <span
+          class="relative w-[65.53px] h-[21.24px] top-[10px] left-[15px] font-[500px] text-[16px] leading-[22px] tracking-[0px] text-[#1C1C1C] font-semibold">$10.30</span>
+        <p class="relative w-[186px] h-[53px] left-[16px] top-[10px] text-[#8B96A5] font-[400px] text-[16px] ">Jeans
+          shorts for men blue color</p>
+      </div>
+
+      <!-- Image 3 coat -->
+      <div class="relative w-[220px] h-[310px] bg-white  rounded-[6px] border border-[#E0E0E0]">
+        <div
+          class="relative w-[210.64px] h-[201.21px] top-[3.35px] left-[4.68px] rounded-[4px] border border-green-300">
+          <img src="\src\assets\cloth\coat.png" alt="coat image"
+            class="relative w-[150.22px] h-[170.67px] top-[14.22px] left-[24.89px] ">
+        </div>
+        <span
+          class="relative w-[65.53px] h-[21.24px] top-[10px] left-[15px] font-[500px] text-[16px] leading-[22px] tracking-[0px] text-[#1C1C1C] font-semibold">$12.50</span>
+        <p class="relative w-[186px] h-[53px] left-[16px] top-[10px] text-[#8B96A5] font-[400px] text-[16px] ">Brown
+          winter coat medium size</p>
+      </div>
+
+      <!-- Image 4 Wallet-->
+      <div class="relative w-[220px] h-[310px] bg-white  rounded-[6px] border border-[#E0E0E0]">
+        <div
+          class="relative w-[210.64px] h-[201.21px] top-[3.35px] left-[4.68px] rounded-[4px] border border-green-300">
+          <img src="\src\assets\cloth\wallet.png" alt="wallet image"
+            class="relative w-[150.22px] h-[170.67px] top-[14.22px] left-[24.89px] ">
+        </div>
+        <span
+          class="relative w-[65.53px] h-[21.24px] top-[10px] left-[15px] font-[500px] text-[16px] leading-[22px] tracking-[0px] text-[#1C1C1C] font-semibold">$34.00</span>
+        <p class="relative w-[186px] h-[53px] left-[16px] top-[10px] text-[#8B96A5] font-[400px] text-[16px] ">Jeans bag
+          for travel for men</p>
+      </div>
+
+      <!-- Image 5 bag -->
+      <div class="relative w-[220px] h-[310px] bg-white  rounded-[6px] border border-[#E0E0E0]">
+        <div
+          class="relative w-[210.64px] h-[201.21px] top-[3.35px] left-[4.68px] rounded-[4px] border border-green-300">
+          <img src="\src\assets\cloth\bag.png" alt="BAg image"
+            class="relative w-[150.22px] h-[170.67px] top-[14.22px] left-[24.89px] ">
+        </div>
+        <span
+          class="relative w-[65.53px] h-[21.24px] top-[10px] left-[15px] font-[500px] text-[16px] leading-[22px] tracking-[0px] text-[#1C1C1C] font-semibold">$99.00</span>
+        <p class="relative w-[186px] h-[53px] left-[16px] top-[10px] text-[#8B96A5] font-[400px] text-[16px] ">Leather
+          wallet</p>
+      </div>
+
+      <!-- Image 6 Jeans-->
+      <div class="relative w-[220px] h-[310px] bg-white  rounded-[6px] border border-[#E0E0E0]">
+        <div
+          class="relative w-[210.64px] h-[201.21px] top-[3.35px] left-[4.68px] rounded-[4px] border border-green-300">
+          <img src="\src\assets\cloth\Jeans.png" alt="Jeans image"
+            class="relative w-[150.22px] h-[170.67px] top-[14.22px] left-[24.89px] ">
+        </div>
+        <span
+          class="relative w-[65.53px] h-[21.24px] top-[10px] left-[15px] font-[500px] text-[16px] leading-[22px] tracking-[0px] text-[#1C1C1C] font-semibold">$9.99</span>
+        <p class="relative w-[186px] h-[53px] left-[16px] top-[10px] text-[#8B96A5] font-[400px] text-[16px] ">Canon
+          camera black, 100x zoom</p>
+      </div>
+
+      <!-- Image 7 Headphone-->
+      <div class="relative w-[220px] h-[310px] bg-white  rounded-[6px] border border-[#E0E0E0]">
+        <div
+          class="relative w-[210.64px] h-[201.21px] top-[3.35px] left-[4.68px] rounded-[4px] border border-green-300">
+          <img src="\src\assets\electronics-gadgets\headphone.png" alt="headphone image"
+            class="relative w-[150.22px] h-[170.67px] top-[14.22px] left-[24.89px] ">
+        </div>
+        <span
+          class="relative w-[65.53px] h-[21.24px] top-[10px] left-[15px] font-[500px] text-[16px] leading-[22px] tracking-[0px] text-[#1C1C1C] font-semibold">$8.99</span>
+        <p class="relative w-[186px] h-[53px] left-[16px] top-[10px] text-[#8B96A5] font-[400px] text-[16px] ">Headset
+          for gaming with mic</p>
+      </div>
+
+      <!-- Image 8 Bag -->
+      <div class="relative w-[220px] h-[310px] bg-white rounded-[6px] border border-[#E0E0E0]">
+        <div
+          class="relative w-[210.64px] h-[201.21px] top-[3.35px] left-[4.68px] rounded-[4px] border border-green-300">
+          <img src="\src\assets\cloth\bag.png" alt="BAg image"
+            class="relative w-[150.22px] h-[170.67px] top-[14.22px] left-[24.89px] ">
+        </div>
+        <span
+          class="relative w-[65.53px] h-[21.24px] top-[10px] left-[15px] font-[500px] text-[16px] leading-[22px] tracking-[0px] text-[#1C1C1C] font-semibold">$10.30</span>
+        <p class="relative w-[186px] h-[53px] left-[16px] top-[10px] text-[#8B96A5] font-[400px] text-[16px] ">
+          Smartwatch silver color modern</p>
+      </div>
+
+      <!-- Image 9 pot -->
+      <div class="relative w-[220px] h-[310px] bg-white rounded-[6px] border border-[#E0E0E0]">
+        <div
+          class="relative w-[210.64px] h-[201.21px] top-[3.35px] left-[4.68px] rounded-[4px] border border-green-300">
+          <img src="\src\assets\interior\Pot.png" alt="pot image"
+            class="relative w-[150.22px] h-[170.67px] top-[14.22px] left-[24.89px] ">
+        </div>
+        <span
+          class="relative w-[65.53px] h-[21.24px] top-[10px] left-[15px] font-[500px] text-[16px] leading-[22px] tracking-[0px] text-[#1C1C1C] font-semibold">$10.30</span>
+        <p class="relative w-[186px] h-[53px] left-[16px] top-[10px] text-[#8B96A5] font-[400px] text-[16px] ">Blue
+          wallet for men leather metarfial</p>
+      </div>
+
+      <!-- Image 10 electric-kattle -->
+      <div class="relative w-[220px] h-[310px] bg-white rounded-[6px] border border-[#E0E0E0]">
+        <div
+          class="relative w-[210.64px] h-[201.21px] top-[3.35px] left-[4.68px] rounded-[4px] border border-green-300">
+          <img src="\src\assets\electronics-gadgets\electric-kattle.png" alt="electric-kattle image"
+            class="relative w-[150.22px] h-[170.67px] top-[14.22px] left-[24.89px] ">
+        </div>
+        <span
+          class="relative w-[65.53px] h-[21.24px] top-[10px] left-[15px] font-[500px] text-[16px] leading-[22px] tracking-[0px] text-[#1C1C1C] font-semibold">$80.95</span>
+        <p class="relative w-[186px] h-[53px] left-[16px] top-[10px] text-[#8B96A5] font-[400px] text-[16px] ">Jeans bag
+          for travel for men</p>
+      </div>
+    </div>
+
+
+  </main>
+
+  <!-- Extra Services ✅ .....image Still Fades hain to Problem find krne hai -->
+  <section class="relative w-[1180px] h-[256px] left-[130px] top-[120px] ">
+    <p
+      class="relative w-[210px] h-[32px] top-[10px] font-[600px] font-semibold text-[24px] leading-[24px] tracking-[-0.2px] text-[#1C1C1C]">
+      Our extra services</p>
+    <div class="relative top-[20px] grid grid-cols-4 grid-rows-1 gap-5">
+      <!-- Image 1 -->
+      <div class="relative w-[280px] h-[200px] bg-[#FFFFFF] border border-[#E0E0E0] rounded-[6px]">
+        <img src="\src\assets\Background\box-background.png" alt="box background" class="border border-green-300">
+        <div class=" absolute w-[55px] h-[55px] left-[210px] top-[95px] bg-[#D1E7FF] rounded-full">
+          <img src="\src\assets\services\search2.png" alt="Search"
+            class="relative w-[17.49px] h-[17.49px] top-[20px] left-[20px]">
+        </div>
+        <p class="relative w-[215px] h-[44px] top-[10px] left-[15px] text-[16px] font-[500px] leading-[22px] ">Source
+          from <br>Industry Hubs</p>
+      </div>
+
+      <!-- Image 2 -->
+      <div class="relative w-[280px] h-[200px] bg-[#FFFFFF] border border-[#E0E0E0] rounded-[6px]">
+        <img src="\src\assets\Background\color-background.png" alt="background" class="border border-green-300">
+        <div class=" absolute w-[55px] h-[55px] left-[210px] top-[95px] bg-[#D1E7FF] rounded-full">
+          <img src="\src\assets\services\Product.png" alt="product"
+            class="relative w-[17.49px] h-[17.49px] top-[20px] left-[20px]">
+        </div>
+        <p class="relative w-[215px] h-[44px] top-[10px] left-[15px] text-[16px] font-[500px] leading-[22px] ">Customize
+          Your <br>Products</p>
+      </div>
+
+      <!-- Image 3 -->
+      <div class="relative w-[280px] h-[200px] bg-[#FFFFFF] border border-[#E0E0E0] rounded-[6px]">
+        <img src="\src\assets\Background\aeroplane-background.png" alt="Aeroplane" class="border border-green-300">
+        <div class=" absolute w-[55px] h-[55px] left-[210px] top-[95px] bg-[#D1E7FF] rounded-full">
+          <img src="\src\assets\services\send.png" alt="Send"
+            class="relative w-[17.49px] h-[17.49px] top-[20px] left-[20px]">
+        </div>
+        <p class="relative w-[215px] h-[44px] top-[10px] left-[15px] text-[16px] font-[500px] leading-[22px] ">Fast,
+          reliable shipping <br>by ocean or air</p>
+      </div>
+
+      <!-- Image 4 -->
+      <div class="relative w-[280px] h-[200px]  bg-[#FFFFFF] border border-[#E0E0E0] rounded-[6px]">
+        <img src="\src\assets\Background\person-background.png" alt="background" class="border border-green-300">
+        <div class=" absolute w-[55px] h-[55px] left-[210px] top-[95px] bg-[#D1E7FF] rounded-full">
+          <img src="\src\assets\services\security.png" alt="Security"
+            class="relative w-[17.49px] h-[17.49px] top-[20px] left-[20px]">
+        </div>
+        <p class="relative w-[215px] h-[44px] top-[10px] left-[15px] text-[16px] font-[500px] leading-[22px] ">Product
+          monitoring<br> and inspection</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Supplier by Region ✅-->
+  <section class="relative w-[1177px] h-[138px] top-[125px] left-[131px]">
+    <p
+      class="relative w-[211px] h-[32px] top-[10px] font-[600px] font-semibold text-[24px] leading-[32px] tracking-[-0.2px] text-[#1C1C1C]">
+      Suppliers by region</p>
+
+    <div class="relative top-[20px] grid grid-cols-5 grid-rows-2 gap-5">
+
+      <!-- Image 1 Arabic Emirates Flag -->
+      <div class="flex flex-row relative w-[221px] h-[36px]">
+        <img src="\src\assets\Flags\arab-emirates.png" alt="Arabic Emirates"
+          class="relative w-[28px] h-[20px] top-[10px]">
+        <div class="relative left-[5px]">
+          <p class="font-[400px] text-[16px] leading-[24px] tracking-[-0.2px] text-[#1C1C1C]">Arabic Emirates</p>
+          <p class="text-[#8B96A5] leading-[100%] tracking-[0px] text-[13px]">shopname.ae</p>
+        </div>
+      </div>
+
+      <!-- Image 2 Australia Flag -->
+      <div class="flex flex-row relative w-[221px] h-[36px]">
+        <img src="\src\assets\Flags\australia.png" alt="Australia" class="relative w-[28px] h-[20px] top-[10px]">
+        <div class="relative left-[5px] flex flex-col">
+          <p class="font-[400px] text-[16px] leading-[24px] tracking-[-0.2px] text-[#1C1C1C]">Australia</p>
+          <p class="text-[#8B96A5] leading-[100%] tracking-[0px] text-[13px]">shopname.ae</p>
+        </div>
+      </div>
+
+      <!-- Image 3 United States Flag -->
+      <div class="flex flex-row relative w-[221px] h-[36px]">
+        <img src="\src\assets\Flags\US.png" alt="United States" class="relative w-[28px] h-[20px] top-[10px]">
+        <div class="relative left-[5px] flex flex-col">
+          <p class="font-[400px] text-[16px] leading-[24px] tracking-[-0.2px] text-[#1C1C1C]">United States</p>
+          <p class="text-[#8B96A5] leading-[100%] tracking-[0px] text-[13px]">shopname.ae</p>
+        </div>
+      </div>
+
+      <!-- Image 4 Russia Flag -->
+      <div class="flex flex-row relative w-[221px] h-[36px]">
+        <img src="\src\assets\Flags\russia.png" alt="Russia" class="relative w-[28px] h-[20px] top-[10px]">
+        <div class="relative left-[5px] flex flex-col">
+          <p class="font-[400px] text-[16px] leading-[24px] tracking-[-0.2px] text-[#1C1C1C]">Russia</p>
+          <p class="text-[#8B96A5] leading-[100%] tracking-[0px] text-[13px]">shopname.ae</p>
+        </div>
+      </div>
+
+      <!-- Image 5 Italy Flag -->
+      <div class="flex flex-row relative w-[221px] h-[36px]">
+        <img src="\src\assets\Flags\italy.png" alt="Italy" class="relative w-[28px] h-[20px] top-[10px]">
+        <div class="relative left-[5px] class=flex flex-col">
+          <p class="font-[400px] text-[16px] leading-[24px] tracking-[-0.2px] text-[#1C1C1C]">Italy</p>
+          <p class="text-[#8B96A5] leading-[100%] tracking-[0px] text-[13px]">shopname.ae</p>
+        </div>
+      </div>
+
+      <!-- Image 6 Denmark Flag -->
+      <div class="flex flex-row relative w-[221px] h-[36px]">
+        <img src="\src\assets\Flags\denmark.png" alt="Denmark" class="relative w-[28px] h-[20px] top-[10px]">
+        <div class="relative left-[5px] flex flex-col">
+          <p class="font-[400px] text-[16px] leading-[24px] tracking-[-0.2px] text-[#1C1C1C]">Denmark</p>
+          <p class="text-[#8B96A5] leading-[100%] tracking-[0px] text-[13px]">shopname.ae</p>
+        </div>
+      </div>
+
+      <!-- Image 7 France Flag -->
+      <div class="flex flex-row relative w-[221px] h-[36px]">
+        <img src="\src\assets\Flags\france.png" alt="France" class="relative w-[28px] h-[20px] top-[10px]">
+        <div class="relative left-[5px] flex flex-col">
+          <p class="font-[400px] text-[16px] leading-[24px] tracking-[-0.2px] text-[#1C1C1C]">France</p>
+          <p class="text-[#8B96A5] leading-[100%] tracking-[0px] text-[13px]">shopname.ae</p>
+        </div>
+      </div>
+
+      <!-- Image 8 Arabic Emirates Flag -->
+      <div class="flex flex-row relative w-[221px] h-[36px]">
+        <img src="\src\assets\Flags\arab-emirates.png" alt="Arabic Emirates"
+          class="relative w-[28px] h-[20px] top-[10px]">
+        <div class="relative left-[5px] flex flex-col">
+          <p class="font-[400px] text-[16px] leading-[24px] tracking-[-0.2px] text-[#1C1C1C]">Arabic Emirates</p>
+          <p class="text-[#8B96A5] leading-[100%] tracking-[0px] text-[13px]">shopname.ae</p>
+        </div>
+      </div>
+
+      <!-- Image 9 China Flag -->
+      <div class="flex flex-row relative w-[221px] h-[36px]">
+        <img src="\src\assets\Flags\china.png" alt="China" class="relative w-[28px] h-[20px] top-[10px]">
+        <div class="relative left-[5px] flex flex-col">
+          <p class="font-[400px] text-[16px] leading-[24px] tracking-[-0.2px] text-[#1C1C1C]">China</p>
+          <p class="text-[#8B96A5] leading-[100%] tracking-[0px] text-[13px]">shopname.ae</p>
+        </div>
+      </div>
+
+      <!-- Image 10 Great Britain Flag -->
+      <div class="flex flex-row relative w-[221px] h-[36px]">
+        <img src="\src\assets\Flags\great-britain.png" alt="Great Britain"
+          class="relative w-[28px] h-[20px] top-[10px]">
+        <div class="relative left-[5px] flex flex-col">
+          <p class="font-[400px] text-[16px] leading-[24px] tracking-[-0.2px] text-[#1C1C1C]">Great Britain</p>
+          <p class="text-[#8B96A5] leading-[100%] tracking-[0px] text-[13px]">shopname.ae</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 1st page End Here -->
+
+  <!-- 2nd Page Starts here  ❌ -->
+  <main class="relative w-[1180px]">
+
+    <!-- ✅ -->
+    <section class="relative w-[1180px] h-[64px] top-[172px]">
+      <div
+        class="absolute w-[411px] h-[24px] left-[130px] flex flex-row gap-2 font-[400px] text-[16px] leading-[24px] tracking-[-0.2px] text-[#8B96A5]">
+        <p>Home &gt;</p>
+        <p>Clothings &gt;</p>
+        <p>Men’s wear &gt;</p>
+        <p>Summer clothing</p>
+      </div>
+
+    </section>
+
+
+    <section class="w-[1140px] flex flex-row  ">
+      <!-- (left side Section)-->
+      <aside class="relative w-[240px] h-[1448px] top-[140px] left-[130px]">
+
+        <!-- Category -->
+        <ul class="border-t border-r border-[#DEE2E7]">
+          <li class="pt-[10px] pb-[10px] gap-[90px] flex flex-row">
+            <label class="font-[600px] font-semibold text-[16px]">Category</label>
+            <img src="\src\assets\up.png" alt="expand-less" class="relative w-[12px] h-[7.14px] top-[10px] ">
+          </li>
+          <li class="font-[400px] text-[16px] text-[#505050]">Mobile accessory</li>
+          <li class="font-[400px] text-[16px] text-[#505050]">Electronics</li>
+          <li class="font-[400px] text-[16px] text-[#505050]">Smartphones </li>
+          <li class="font-[400px] text-[16px] text-[#505050]">Modern tech</li>
+          <li class="font-[400px] text-[16px] text-[#0D6EFD]"><a href="#">See all</a></li>
+        </ul>
+
+        <!-- Brand -->
+        <ul class="border-t border-[#DEE2E7]">
+          <li class="pt-[10px] pb-[10px] gap-[90px] flex flex-row">
+            <label class="font-[600px] font-semibold text-[16px]">Brand</label>
+            <img src="\src\assets\up.png" alt="expand-less" class="relative w-[12px] h-[7.14px] top-[10px] ">
+          </li>
+          <li>
+            <input type="checkbox" id="samsung" placeholder="hello">
+            <label class="font-[400px] text-[16px] text-[#505050]">Samsung</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Apple" placeholder="hello">
+            <label class="font-[400px] text-[16px] text-[#505050]">Apple</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Huawei" placeholder="hello">
+            <label class="font-[400px] text-[16px] text-[#505050]">Huawei</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Pocco" placeholder="hello">
+            <label class="font-[400px] text-[16px] text-[#505050]">Pocco</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Lenovo" placeholder="hello">
+            <label class="font-[400px] text-[16px] text-[#505050]">Lenovo</label>
+          </li>
+          <li class="font-[400px] text-[16px] text-[#0D6EFD]"><a href="#">See all</a></li>
+
+        </ul>
+
+        <!-- Feature -->
+        <ul class="border-t border-[#DEE2E7]">
+          <li class="pt-[10px] pb-[10px] gap-[90px] flex flex-row">
+            <label class="font-[600px] font-semibold text-[16px]">Features</label>
+            <img src="\src\assets\up.png" alt="expand-less" class="relative w-[12px] h-[7.14px] top-[10px] ">
+          </li>
+          <li>
+            <input type="checkbox" id="Metallic" placeholder="hello">
+            <label class="font-[400px] text-[16px] text-[#505050]">Metallic</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Plastic-cover" placeholder="hello">
+            <label class="font-[400px] text-[16px] text-[#505050]">Plastic cover</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Ram" placeholder="hello">
+            <label class="font-[400px] text-[16px] text-[#505050]">8GB Ram</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Super-power" placeholder="hello">
+            <label class="font-[400px] text-[16px] text-[#505050]">Super power</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Large-memory" placeholder="hello">
+            <label class="font-[400px] text-[16px] text-[#505050]">Large Memory</label>
+          </li>
+          <li class="font-[400px] text-[16px] text-[#0D6EFD]"><a href="#">See all</a></li>
+        </ul>
+
+        <!-- Min/MAx Price Slider -->
+        <div class="border-t border-[#DEE2E7]">
+          <div class="pt-[10px] pb-[10px] gap-[90px] flex flex-row">
+            <span class="font-[600px] font-semibold text-[16px]">Price Range</span>
+            <img src="\src\assets\up.png" alt="expand-less" class="relative w-[12px] h-[7.14px] top-[10px] ">
+          </div>
+
+          <!-- Slider -->
+          <div class="relative w-[230px] h-[20px] top-[20px]">
+            <div class="absolute top-3 left-0 w-full h-1 bg-gray-300 rounded"></div>
+            <div class="absolute top-3 left-6 right-12 h-1 bg-blue-500 rounded"></div>
+            <div class="absolute top-1 left-6 w-4 h-4 bg-white border-2 border-gray-300 rounded-full shadow"></div>
+            <div class="absolute top-1 right-12 w-4 h-4 bg-white border-2 border-gray-300 rounded-full shadow"></div>
+          </div>
+
+          <!-- Labels -->
+          <div class="flex justify-between text-xs text-gray-600 mb-1">
+            <span>Min</span>
+            <span>Max</span>
+          </div>
+          <!-- Inputs -->
+          ` <div class="flex gap-2 mb-3">
+            <input type="number" placeholder="0"
+              class="w-1/2 h-9 px-2 border border-gray-200 rounded text-sm outline-none" />
+            <input type="number" placeholder="999999"
+              class="w-1/2 h-9 px-2 border border-gray-200 rounded text-sm outline-none" />
+          </div>
+
+          <!-- Button -->
+          <button class="w-full h-9 border border-gray-200 rounded text-blue-600 text-sm font-medium hover:bg-gray-50">
+            Apply
+          </button>
+
+        </div>
+
+        <ul class="border-t border-[#DEE2E7]">
+          <li class="h-[48px] pt-[10px] pb-[10px] gap-[90px] flex flex-row">
+            <label class="font-[600px] font-semibold text-[16px]">Condition</label>
+            <img src="\src\assets\up.png" alt="expand-less" class="relative w-[12px] h-[7.14px] top-[10px] ">
+          </li>
+          <li>
+            <input type="radio" id="Any" placeholder="hello">
+            <label class="font-[400px] text-[16px] text-[#505050]">Any</label>
+          </li>
+          <li>
+            <input type="radio" id="Refurbished" placeholder="hello">
+            <label class="font-[400px] text-[16px] text-[#505050]">Refurbished</label>
+          </li>
+          <li>
+            <input type="radio" id="Brand-new" placeholder="hello">
+            <label class="font-[400px] text-[16px] text-[#505050]">Brand new</label>
+          </li>
+          <li>
+            <input type="radio" id="Old-items" placeholder="hello">
+            <label class="font-[400px] text-[16px] text-[#505050]">Old items</label>
+          </li>
+        </ul>
+
+        <!-- Rating -->
+        <div class="border-t border-[#DEE2E7]">
+          <div class="w-[230px] h-[48px] pt-[10px] pb-[10px] gap-[90px] flex flex-row">
+            <span class="font-[600px] font-semibold text-[16px]">Ratings</span>
+            <img src="\src\assets\up.png" alt="expand-less" class="relative w-[12px] h-[7.14px] top-[10px] ">
+          </div>
+          <!-- 5 Stars -->
+          <label class="flex items-center gap-2 cursor-pointer">
+            <input type="checkbox" class="w-4 h-4 rounded border-gray-400">
+            <div class="text-orange-400 text-lg">
+              ★★★★★
+            </div>
+          </label>
+
+          <!-- 4 Stars -->
+          <label class="flex items-center gap-2 cursor-pointer">
+            <input type="checkbox" class="w-4 h-4 rounded border-gray-400">
+            <div class="text-lg">
+              <span class="text-orange-400">★★★★</span>
+              <span class="text-gray-400">★</span>
+            </div>
+          </label>
+
+          <!-- 3 Stars -->
+          <label class="flex items-center gap-2 cursor-pointer">
+            <input type="checkbox" class="w-4 h-4 rounded border-gray-400">
+            <div class="text-lg">
+              <span class="text-orange-400">★★★</span>
+              <span class="text-gray-400">★★</span>
+            </div>
+          </label>
+
+          <!-- 2 Stars -->
+          <label class="flex items-center gap-2 cursor-pointer">
+            <input type="checkbox" class="w-4 h-4 rounded border-gray-400">
+            <div class="text-lg">
+              <span class="text-orange-400">★★</span>
+              <span class="text-gray-400">★★★</span>
+            </div>
+          </label>
+        </div>
+      </aside>
+
+      <!-- Right Side Section MAin content ✅-->
+      <main class="relative w-[920px] h-[62px] pl-[140px] top-[140px] ">
+        <div
+          class="w-[920px] h-[56px] bg-white flex flex-row rounded-[6px] border border-[#DEE2E7] items-center justify-between px-[16px]">
+          <p class="text-[#1C1C1C] text-[16px] font-normal">
+            12,911 items in
+            <span class="font-semibold text-[#1C1C1C] text-[16px]"> Mobile accessory</span>
+          </p>
+
+          <ul class="flex flex-row items-center gap-[16px]">
+            <li class="flex flex-row items-center gap-[10px]">
+              <input type="checkbox" checked placeholder="checkbox"
+                class="w-[20px] h-[20px] border border-[#BDC1C8] rounded-[4px] accent-[#0D6EFD]">
+              <p class="text-[#1C1C1C] text-[16px] font-normal whitespace-nowrap">Verified only</p>
+            </li>
+            <li
+              class="flex flex-row items-center justify-between border border-[#E3E8EE] rounded-[6px] px-[12px] py-[8px] w-[130px] bg-white relative">
+              <input type="text" placeholder="Features"
+                class="w-full text-[#1C1C1C] text-[15px] font-normal placeholder-[#1C1C1C]">
+              <img src="\src\assets\drop-down.png" alt="Drop-down" class="w-[12px] h-[12px] ml-[8px]">
+            </li>
+            <li class="flex flex-row items-center border border-[#E3E8EE] rounded-[6px] overflow-hidden bg-white">
+
+              <div class="bg-[#EFF2F4] p-[8px] border-r border-[#E3E8EE] flex items-center justify-center ">
+                <img src="\src\assets\Menu.png" alt="Menu" class="w-[24px] h-[24px] object-contain">
+              </div>
+
+              <div class="p-[8px] flex items-center justify-center ">
+                <img src="\src\assets\listview.png" alt="List-viewer" class="w-[24px] h-[24px] object-contain">
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Devices Section -->
+        <section class="relative w-[920px] h-[1430px] top-[10px] flex flex-col gap-[20px]">
+
+          <!-- Device 1 detail -->
+          <div class="w-[920px] h-[230px] rounded-[6px] border border-[#DEE2E7] bg-white flex flex-row">
+
+            <div>
+              <!-- Device image -->
+              <img src="\src\assets\electronics-gadgets\phone-red.png" alt="phone"
+                class="w-[184.8px] h-[184.8px] pt-[13.07px] pr-[13.07px] object-contain">
+            </div>
+
+            <div>
+              <!-- Device name -->
+              <div class="flex flex-row justify-between pt-[15px]">
+                <p class="font-[500px] font-semibold text-[16px] pt-[5px] text-[#1C1C1C]">Canon Cmera EOS 2000, Black
+                  10x zoom</p>
+                <div class="relative w-[40px] h-[40px] left-[110px] border border-[#DEE2E7] rounded-[6px]">
+                  <img src="\src\assets\favorite_border.png" alt="border" class="p-[7px]">
+                </div>
+              </div>
+
+              <!-- Price -->
+              <div class="flex flex-row gap-[5px]">
+                <p class="font-[600px] font-semibold text-[20px]">$998.00</p>
+                <p class="text-[#8B96A5] text-[16px] font-semibold pt-[3px] line-through">$1128.00</p>
+              </div>
+
+              <!-- Rating -->
+              <div class="flex flex-row gap-[18px]">
+                <div class="flex flex-row ">
+                  <span class="text-orange-400">★★★★</span>
+                  <span class="text-gray-400">★</span>
+                  <span>7.5</span>
+                </div>
+
+
+                <!-- Order -->
+                <div class="flex flex-row gap-[5px]">
+                  <p class="text-[#8B96A5]">•</p>
+                  <p class="text-[#8B96A5]"> 154 orders</p>
+                </div>
+
+
+                <!-- Shipping -->
+                <div class="flex flex-row gap-[5px]">
+                  <p class="text-[#8B96A5]">•</p>
+                  <p class="text-[#00B517]">Free Shipping</p>
+                </div>
+
+              </div>
+
+              <!-- Product Details -->
+              <div class="relative w-[607px] h-[75px] top-[5px]">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua</p>
+                <a href="View Detail" class="text-[#0D6EFD]">View details</a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Device 2 detail -->
+          <div class="w-[920px] h-[230px] rounded-[6px] border border-[#DEE2E7] bg-white  flex flex-row">
+
+            <div>
+              <!-- Device image -->
+              <img src="\src\assets\Tech\Mobile.png" alt="Mobile"
+                class="w-[184.8px] h-[184.8px] pl-[13.07px] pt-[13.07px] object-contain">
+            </div>
+
+            <div>
+              <!-- Device name -->
+              <div class="flex flex-row justify-between pt-[15px]">
+                <p class="font-[500px] font-semibold text-[16px] pt-[5px] text-[#1C1C1C]">GoPro HERO6 4K Action Camera -
+                  Black</p>
+                <div class="relative w-[40px] h-[40px] left-[110px] border border-[#DEE2E7] rounded-[6px] right-[15px]">
+                  <img src="\src\assets\favorite_border.png" alt="border" class="p-[7px]">
+                </div>
+              </div>
+
+              <!-- Price -->
+              <div>
+                <p class="font-[600px] font-semibold text-[20px]">$998.00</p>
+              </div>
+
+              <!-- Rating -->
+              <div class="flex flex-row gap-[18px]">
+                <div class="flex flex-row ">
+                  <span class="text-orange-400">★★★★</span>
+                  <span class="text-gray-400">★</span>
+                  <span>7.5</span>
+                </div>
+
+
+                <!-- Order -->
+                <div class="flex flex-row gap-[5px]">
+                  <p class="text-[#8B96A5]">•</p>
+                  <p class="text-[#8B96A5]"> 154 orders</p>
+                </div>
+
+
+                <!-- Shipping -->
+                <div class="flex flex-row gap-[5px]">
+                  <p class="text-[#8B96A5]">•</p>
+                  <p class="text-[#00B517]">Free Shipping</p>
+                </div>
+
+              </div>
+
+              <!-- Product Details -->
+              <div class="relative w-[607px] h-[75px] top-[5px]">
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit </p>
+                <a href="View Detail" class="text-[#0D6EFD]">View details</a>
+              </div>
+
+
+            </div>
+          </div>
+
+
+          <!-- Device 3 detail -->
+          <div class="w-[920px] h-[230px] rounded-[6px] border border-[#DEE2E7] bg-white flex flex-row">
+
+            <div>
+              <!-- Device image -->
+              <img src="\src\assets\Tech\phone.png" alt="phone"
+                class="w-[184.8px] h-[184.8px] pl-[13.07px] pt-[13.07px] object-contain">
+            </div>
+
+
+            <div>
+              <!-- Device name -->
+              <div class="flex flex-row justify-between pt-[15px]">
+                <p class="font-[500px] font-semibold text-[16px] pt-[5px] text-[#1C1C1C]">GoPro HERO6 4K Action Camera -
+                  Black</p>
+                <div class="relative w-[40px] h-[40px] left-[110px] border border-[#DEE2E7] rounded-[6px] right-[15px]">
+                  <img src="\src\assets\favorite_border.png" alt="border" class="p-[7px]">
+                </div>
+              </div>
+
+              <!-- Price -->
+              <div>
+                <p class="font-[600px] font-semibold text-[20px]">$998.00</p>
+              </div>
+
+              <!-- Rating -->
+              <div class="flex flex-row gap-[18px]">
+                <div class="flex flex-row ">
+                  <span class="text-orange-400">★★★★</span>
+                  <span class="text-gray-400">★</span>
+                  <span>7.5</span>
+                </div>
+
+
+                <!-- Order -->
+                <div class="flex flex-row gap-[5px]">
+                  <p class="text-[#8B96A5]">•</p>
+                  <p class="text-[#8B96A5]"> 154 orders</p>
+                </div>
+
+
+                <!-- Shipping -->
+                <div class="flex flex-row gap-[5px]">
+                  <p class="text-[#8B96A5]">•</p>
+                  <p class="text-[#00B517]">Free Shipping</p>
+                </div>
+
+              </div>
+
+              <!-- Product Details -->
+              <div class="relative w-[607px] h-[75px] top-[5px]">
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                  commodo consequat. Duis aute irure dolor in reprehenderit </p>
+                <a href="View Detail" class="text-[#0D6EFD]">View details</a>
+              </div>
+
+            </div>
+          </div>
+
+
+          <!-- Device 4 detail -->
+          <div class="w-[920px] h-[230px] rounded-[6px] border border-[#DEE2E7] bg-white flex flex-row">
+
+            <div>
+              <!-- Device image -->
+              <img src="\src\assets\Tech\Laptop.png" alt="Laptop"
+                class="w-[184.8px] h-[184.8px] pl-[13.07px] pt-[13.07px] object-contain">
+            </div>
+
+
+            <div>
+              <!-- Device name -->
+              <div class="flex flex-row justify-between pt-[15px]">
+                <p class="font-[500px] font-semibold text-[16px] pt-[5px] text-[#1C1C1C]">GoPro HERO6 4K Action Camera -
+                  Black</p>
+                <div class="relative w-[40px] h-[40px] left-[110px] border border-[#DEE2E7] rounded-[6px] right-[15px]">
+                  <img src="\src\assets\favorite_border.png" alt="border" class="p-[7px]">
+                </div>
+              </div>
+
+              <!-- Price -->
+              <div class="font-[600px] font-semibold text-[20px]">
+                <p>$998.00</p>
+              </div>
+
+              <!-- Rating -->
+              <div class="flex flex-row gap-[18px]">
+                <div class="flex flex-row ">
+                  <span class="text-orange-400">★★★★</span>
+                  <span class="text-gray-400">★</span>
+                  <span>7.5</span>
+                </div>
+
+
+                <!-- Order -->
+                <div class="flex flex-row gap-[5px]">
+                  <p class="text-[#8B96A5]">•</p>
+                  <p class="text-[#8B96A5]"> 154 orders</p>
+                </div>
+
+
+                <!-- Shipping -->
+                <div class="flex flex-row gap-[5px]">
+                  <p class="text-[#8B96A5]">•</p>
+                  <p class="text-[#00B517]">Free Shipping</p>
+                </div>
+
+              </div>
+
+
+              <!-- Product Details -->
+              <div class="relative w-[607px] h-[75px] top-[5px]">
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit </p>
+                <a href="View Detail" class="text-[#0D6EFD]">View details</a>
+              </div>
+
+
+            </div>
+
+          </div>
+
+          <!-- Device 5 detail -->
+          <div class="w-[920px] h-[230px] rounded-[6px] border border-[#DEE2E7] bg-white flex flex-row">
+
+            <div>
+              <!-- Device image -->
+              <img src="\src\assets\Tech\Watch.png" alt="Watch"
+                class="w-[184.8px] h-[184.8px] pl-[13.07px] pt-[13.07px] object-contain">
+            </div>
+
+            <div>
+              <!-- Device name -->
+              <div class="flex flex-row justify-between pt-[15px]">
+                <p class="font-[500px] font-semibold text-[16px] pt-[5px] text-[#1C1C1C]">GoPro HERO6 4K Action Camera -
+                  Black</p>
+                <div class="relative w-[40px] h-[40px] left-[110px] border border-[#DEE2E7] rounded-[6px] right-[15px]">
+                  <img src="\src\assets\favorite_border.png" alt="border" class="p-[7px]">
+                </div>
+              </div>
+
+              <!-- Price -->
+              <div class="flex flex-row gap-[3px]">
+                <p class="font-[600px] font-semibold text-[20px]">$998.00</p>
+                <p class="text-[#8B96A5] text-[16px] font-semibold pt-[3px] line-through">$1128.00</p>
+              </div>
+
+              <!-- Rating -->
+              <div class="flex flex-row gap-[18px]">
+                <div class="flex flex-row ">
+                  <span class="text-orange-400">★★★★</span>
+                  <span class="text-gray-400">★</span>
+                  <span>7.5</span>
+                </div>
+
+
+                <!-- Order -->
+                <div class="flex flex-row gap-[5px]">
+                  <p class="text-[#8B96A5]">•</p>
+                  <p class="text-[#8B96A5]"> 154 orders</p>
+                </div>
+
+
+                <!-- Shipping -->
+                <div class="flex flex-row gap-[5px]">
+                  <p class="text-[#8B96A5]">•</p>
+                  <p class="text-[#00B517]">Free Shipping</p>
+                </div>
+
+              </div>
+
+
+
+              <!-- Product Details -->
+              <div class="relative w-[607px] h-[75px] top-[5px]">
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit </p>
+                <a href="View Detail" class="text-[#0D6EFD]">View details</a>
+              </div>
+
+
+            </div>
+
+          </div>
+
+
+          <!-- Device 6 detail -->
+          <div class="w-[920px] h-[230px] rounded-[6px] border border-[#DEE2E7] bg-white flex flex-row">
+
+            <div>
+              <!-- Device image -->
+              <img src="\src\assets\electronics-gadgets\headphone.png" alt="headphone"
+                class="w-[184.8px] h-[184.8px] pl-[13.07px] pt-[13.07px] object-contain">
+            </div>
+
+            <div>
+              <!-- Device name -->
+              <div class="flex flex-row justify-between pt-[15px]">
+                <p class="font-[500px] font-semibold text-[16px] pt-[5px] text-[#1C1C1C]">GoPro HERO6 4K Action Camera -
+                  Black</p>
+                <div class="relative w-[40px] h-[40px] left-[110px] border border-[#DEE2E7] rounded-[6px] right-[15px]">
+                  <img src="\src\assets\favorite_border.png" alt="border" class="p-[7px]">
+                </div>
+              </div>
+
+              <!-- Price -->
+              <div>
+                <p class="font-[600px] font-semibold text-[20px]">$998.00</p>
+              </div>
+
+              <!-- Rating -->
+              <div class="flex flex-row gap-[18px]">
+                <div class="flex flex-row ">
+                  <span class="text-orange-400">★★★★</span>
+                  <span class="text-gray-400">★</span>
+                  <span>7.5</span>
+                </div>
+
+
+                <!-- Order -->
+                <div class="flex flex-row gap-[5px]">
+                  <p class="text-[#8B96A5]">•</p>
+                  <p class="text-[#8B96A5]"> 154 orders</p>
+                </div>
+
+
+                <!-- Shipping -->
+                <div class="flex flex-row gap-[5px]">
+                  <p class="text-[#8B96A5]">•</p>
+                  <p class="text-[#00B517]">Free Shipping</p>
+                </div>
+
+              </div>
+
+
+
+              <!-- Product Details -->
+              <div class="relative w-[607px] h-[75px] top-[5px]">
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit </p>
+                <a href="View Detail" class="text-[#0D6EFD]">View details</a>
+              </div>
+
+
+            </div>
+          </div>
+
+
+          <section class="relative top-[10px] flex flex-row pl-[520px] gap-[10px]">
+            <div class=" flex flex-row items-center justify-between bg-white border px-5 border-gray-300 rounded-[6px]">
+              <input type="text" placeholder="show 10" class="w-[125px] h-[40px] placeholder-black">
+              <img src="\src\assets\drop-down.png" alt="image"
+                class="relative w-[12px] h-[7.41px] top-[8.29] left-[6px]">
+            </div>
+            <div class="flex flex-row w-[217px] h-[40px] items-center text-center bg-white rounded-[6px]">
+              <button class="w-[44px] h-[40px] rounded-l-[6px] border border-gray-300">&lt;</button>
+              <button class="w-[44px] h-[40px]  border border-gray-300">1</button>
+              <button class="w-[44px] h-[40px] border border-gray-300">2</button>
+              <button class="w-[44px] h-[40px] border border-gray-300">3</button>
+              <button class="w-[44px] h-[40px] rounded-r-[6px] border border-gray-300">&gt;</button>
+            </div>
+          </section>
+        </section>
+      </main>
+    </section>
+
+  </main>
+  <!-- 2nd Page End here -->
+
+  <!-- 3rd Page Start here -->
+  <main class="flex flex-row relative top-[220px]">
+    <div
+      class="absolute left-[130px] flex flex-row gap-2 font-[400px] text-[16px] leading-[24px] tracking-[-0.2px] text-[#8B96A5]">
+      <p>Home &gt;</p>
+      <p>Clothings &gt;</p>
+      <p>Men’s wear &gt;</p>
+      <p>Summer clothing</p>
+    </div>
+
+    <section class="flex flex-row">
+      <!--(left side Section) -->
+      <aside class="relative w-[240px] h-[1448px] top-[30px] left-[130px]">
+
+        <!-- Category -->
+        <ul class="border-t border-[#DEE2E7]">
+          <li class="pt-[10px] pb-[10px] gap-[90px] flex flex-row">
+            <label class="font-[600px] font-semibold text-[16px]">Category</label>
+            <img src="\src\assets\up.png" alt="expand-less" class="relative w-[12px] h-[7.14px] top-[10px] ">
+          </li>
+          <li class="font-[400px] text-[16px] text-[#505050]">Mobile accessory</li>
+          <li class="font-[400px] text-[16px] text-[#505050]">Electronics</li>
+          <li class="font-[400px] text-[16px] text-[#505050]">Smartphones </li>
+          <li class="font-[400px] text-[16px] text-[#505050]">Modern tech</li>
+          <li><a href="#">See all</a></li>
+        </ul>
+
+        <!-- Brand -->
+        <ul class="border-t border-[#DEE2E7]">
+          <li class="pt-[10px] pb-[10px] gap-[90px] flex flex-row">
+            <label class="font-[600px] font-semibold text-[16px]">Brand</label>
+            <img src="\src\assets\up.png" alt="expand-less" class="relative w-[12px] h-[7.14px] top-[10px] ">
+          </li>
+          <li>
+            <input type="checkbox" id="samsung" placeholder="hello" value="Samsung" class="filter-checkbox">
+            <label for="samsung" class=" font-[400px] text-[16px] text-[#1C1C1C]">Samsung</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Apple" placeholder="hello" value="Apple" class="filter-checkbox">
+            <label for="Apple" class=" font-[400px] text-[16px] text-[#1C1C1C]">Apple</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Huawei" placeholder="hello" value="Huawei" class="filter-checkbox">
+            <label for="Huawei" class="font-[400px] text-[16px] text-[#1C1C1C]">Huawei</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Pocco" placeholder="hello" value="Pocco" class="filter-checkbox">
+            <label for="Pocco" class=" font-[400px] text-[16px] text-[#1C1C1C]">Pocco</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Lenovo" placeholder="hello" value="Lenovo" class="filter-checkbox">
+            <label for="Lenovo" class="font-[400px] text-[16px] text-[#1C1C1C]">Lenovo</label>
+          </li>
+        </ul>
+
+        <!-- Feature -->
+        <ul class="border-t border-[#DEE2E7]">
+          <li class="pt-[10px] pb-[10px] gap-[90px] flex flex-row">
+            <label class="font-[600px] font-semibold text-[16px]">Features</label>
+            <img src="\src\assets\up.png" alt="expand-less" class="relative w-[12px] h-[7.14px] top-[10px] ">
+          </li>
+          <li>
+            <input type="checkbox" id="Metallic" placeholder="hello" value="Metallic" class="filter-checkbox">
+            <label for="Metallic" class="font-[400px] text-[16px] text-[#1C1C1C]">Metallic</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Plastic-cover" placeholder="hello" value="Plastic cover" class="filter-checkbox">
+            <label for="Plastic-cover" class=" font-[400px] text-[16px] text-[#1C1C1C]">Plastic cover</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Ram" placeholder="hello" value="8GB Ram" class="filter-checkbox">
+            <label for="Ram" class="font-[400px] text-[16px] text-[#1C1C1C]">8GB Ram</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Super-power" placeholder="hello" value="Super power" class="filter-checkbox">
+            <label for="Super-power" class="font-[400px] text-[16px] text-[#1C1C1C]">Super power</label>
+          </li>
+          <li>
+            <input type="checkbox" id="Large-memory" value="Large Memory" placeholder="hello" class="filter-checkbox">
+            <label for="Large-memory" class="font-[400px] text-[16px] text-[#1C1C1C]">Large Memory</label>
+          </li>
+        </ul>
+
+        <!-- Price Range -->
+        <div class="flex flex-row border-t border-[#DEE2E7] pt-[10px] pb-[10px] gap-[90px] flex flex-row">
+          <p class="font-[600px] font-semibold text-[16px]">Price Range</p>
+          <img src="\src\assets\drop-down.png" alt="Drop-down" class="relative w-[12px] h-[7.14px] top-[10px] ">
+        </div>
+
+        <!-- Condition -->
+        <div class="flex flex-row border-t border-[#DEE2E7] pt-[10px] pb-[10px] gap-[90px] flex flex-row">
+          <p class="font-[600px] font-semibold text-[16px]">Condition</p>
+          <img src="\src\assets\drop-down.png" alt="Drop-down" class="relative w-[12px] h-[7.14px] top-[10px] ">
+        </div>
+
+        <!-- Ratings -->
+        <div class="flex flex-row border-t border-[#DEE2E7] pt-[10px] pb-[10px] gap-[90px] flex flex-row">
+          <p class="font-[600px] font-semibold text-[16px]">Ratings</p>
+          <img src="\src\assets\drop-down.png" alt="Drop-down" class="relative w-[12px] h-[7.14px] top-[10px] ">
+        </div>
+
+        <!-- Manufacturer -->
+        <div class="flex flex-row border-t border-[#DEE2E7]">
+          <p class="font-[600px] font-semibold text-[16px]">Manufacturer</p>
+          <img src="\src\assets\drop-down.png" alt="Drop-down" class="relative w-[12px] h-[7.14px] top-[10px] ">
+        </div>
+      </aside>
+
+
+      <!-- Right Side -->
+      <section>
+
+        <div
+          class=" relative w-[920px] top-[30px] left-[130px] h-[56px] bg-white flex flex-row rounded-[6px] border border-[#DEE2E7] items-center justify-between px-[16px]">
+          <p class="text-[#1C1C1C] text-[16px] font-normal">
+            12,911 items in
+            <span class="font-semibold text-[#1C1C1C] text-[16px]"> Mobile accessory</span>
+          </p>
+
+          <ul class="flex flex-row items-center gap-[16px]">
+            <li class="flex flex-row items-center gap-[10px]">
+              <input type="checkbox" placeholder="checkbox"
+                class="w-[20px] h-[20px] border border-[#BDC1C8] rounded-[4px] accent-[#0D6EFD]">
+              <p class="text-[#1C1C1C] text-[16px] font-normal whitespace-nowrap">Verified only</p>
+            </li>
+            <li
+              class="flex flex-row items-center justify-between border border-[#E3E8EE] rounded-[6px] px-[12px] py-[8px] w-[130px] bg-white relative">
+              <input type="text" placeholder="Features"
+                class="w-full text-[#1C1C1C] text-[15px] font-normal placeholder-[#1C1C1C]">
+              <img src="\src\assets\drop-down.png" alt="Drop-down" class="w-[12px] h-[12px] ml-[8px]">
+            </li>
+            <li class="flex flex-row items-center border border-[#E3E8EE] rounded-[6px] overflow-hidden bg-white">
+
+              <div class="bg-[#EFF2F4] p-[8px] border-r border-[#E3E8EE] flex items-center justify-center ">
+                <img src="\src\assets\Menu.png" alt="Menu" class="w-[24px] h-[24px] object-contain">
+              </div>
+
+              <div class="p-[8px] flex items-center justify-center ">
+                <img src="\src\assets\listview.png" alt="List-viewer" class="w-[24px] h-[24px] object-contain">
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Filters -->
+        <div id="active-filters-container" class="relative top-[30px] left-[130px] flex flex-wrap gap-2 min-h-[32px]">
+        </div>
+
+        <!-- Clear All Link -->
+        <a href="#" id="clear-all-filters"
+          class="relative left-[630px] hidden text-xs text-[#0D6EFD] font-medium mt-2 inline-block cursor-pointer">
+          Clear all filters</a>
+
+
+        <!-- Product/Items -->
+        <div class="relative top-[20px] left-[70px] w-[920px] flex flex-col gap-[20px]">
+
+          <div class="flex flex-row justify-between gap-[16px]">
+            <!-- Item 1 -->
+            <div
+              class="relative left-[60px] w-[295px] h-[405px] bg-white border border-[#DEE2E7] rounded-[6px] p-[16px] flex flex-col justify-between ">
+              <img src="\src\assets\electronics-gadgets\phone-red.png" alt="Phome Image"
+                class="w-[202.4px] h-[202.4px] object-contain">
+              <div class="flex flex-col flex-1 justify-end">
+                <!-- Prcing -->
+                <div class="flex flex-row items-baseline gap-[8px] mb-[6px]">
+                  <span class="text-[#1C1C1C] font-semibold text-[16px]">$99.50</span>
+                  <span class="text-[#8B96A5] text-[16px] line-through">$1128.00</span>
+                </div>
+
+                <!-- Rating -->
+                <div class="flex flex-row items-center gap-[6px] mb-[10px] relative">
+                  <span class="text-orange-400">★★★★</span>
+                  <span class="text-gray-400">★</span>
+                  <span class="text-orange-400">7.5</span>
+                  <img src="\src\assets\favorite_border.png" alt="Border heart"
+                    class="w-[28px] h-[28px] absolute right-0 border border-[#DEE2E7] rounded-[4px] p-[6px]">
+                </div>
+
+                <div class="text-[#606060] text-[16px] leading-[24px] font-[400px]">
+                  <p>GoPro HERO6 4K Action </p>
+                  <p>Camera - Black</p>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Item 2 -->
+            <div
+              class="relative left-[60px] w-[295px] h-[405px] bg-white border border-[#DEE2E7] rounded-[6px] p-[16px] flex flex-col justify-between ">
+              <img src="\src\assets\Tech\iphone.png" alt="iphone" class="w-[202.4px] h-[202.4px] object-contain">
+              <div class="flex flex-col flex-1 justify-end">
+                <!-- Prcing -->
+                <div class="flex flex-row items-baseline gap-[8px] mb-[6px]">
+                  <span class="text-[#1C1C1C] font-semibold text-[16px]">$99.50</span>
+                  <span class="text-[#8B96A5] text-[16px] line-through">$1128.00</span>
+                </div>
+
+                <!-- Rating -->
+                <div class="flex flex-row items-center gap-[6px] mb-[10px] relative">
+                  <span class="text-orange-400">★★★</span>
+                  <span class="text-gray-400">★★</span>
+                  <span class="text-orange-400">5.9</span>
+                  <img src="\src\assets\favorite_border.png" alt="Border heart"
+                    class="w-[28px] h-[28px] absolute right-0 border border-[#DEE2E7] rounded-[4px] p-[6px]">
+                </div>
+
+                <div class="text-[#606060] text-[16px] leading-[24px] font-[400px]">
+                  <p>GoPro HERO6 4K Action </p>
+                  <p>Camera - Black</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 3  -->
+            <div
+              class="relative left-[60px] w-[295px] h-[405px] bg-white border border-[#DEE2E7] rounded-[6px] p-[16px] flex flex-col justify-between ">
+              <img src="\src\assets\Tech\Mobile.png" alt="mobile phone" class="w-[202.4px] h-[202.4px] object-contain">
+              <div class="flex flex-col flex-1 justify-end">
+                <!-- Prcing -->
+                <div class="flex flex-row items-baseline gap-[8px] mb-[6px]">
+                  <span class="text-[#1C1C1C] font-semibold text-[16px]">$99.50</span>
+                </div>
+
+                <!-- Rating -->
+                <div class="flex flex-row items-center gap-[6px] mb-[10px] relative">
+                  <span class="text-orange-400">★★★★</span>
+                  <span class="text-gray-400">★</span>
+                  <span class="text-orange-400">7.5</span>
+                  <img src="\src\assets\favorite_border.png" alt="Border heart"
+                    class="w-[28px] h-[28px] absolute right-0 border border-[#DEE2E7] rounded-[4px] p-[6px]">
+                </div>
+
+                <div class="text-[#606060] text-[16px] leading-[24px] font-[400px]">
+                  <p>GoPro HERO6 4K Action </p>
+                  <p>Camera - Black</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="flex flex-row gap-[16px]">
+            <!-- Item 4  -->
+            <div
+              class="relative left-[60px] w-[295px] h-[405px] bg-white border border-[#DEE2E7] rounded-[6px] p-[16px] flex flex-col justify-between ">
+              <img src="\src\assets\Tech\phone.png" alt="Tablet" class="w-[202.4px] h-[202.4px] object-contain">
+              <div class="flex flex-col flex-1 justify-end">
+                <!-- Prcing -->
+                <div class="flex flex-row items-baseline gap-[8px] mb-[6px]">
+                  <span class="text-[#1C1C1C] font-semibold text-[16px]">$99.50</span>
+                  <span class="text-[#8B96A5] text-[16px] line-through">$1128.00</span>
+                </div>
+
+                <!-- Rating -->
+                <div class="flex flex-row items-center gap-[6px] mb-[10px] relative">
+                  <span class="text-orange-400">★★★★</span>
+                  <span class="text-gray-400">★</span>
+                  <span class="text-orange-400">7.5</span>
+                  <img src="\src\assets\favorite_border.png" alt="Border heart"
+                    class="w-[28px] h-[28px] absolute right-0 border border-[#DEE2E7] rounded-[4px] p-[6px]">
+                </div>
+
+                <div class="text-[#606060] text-[16px] leading-[24px] font-[400px]">
+                  <p>GoPro HERO6 4K Action </p>
+                  <p>Camera - Black</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 5  -->
+            <div
+              class="relative left-[60px] w-[295px] h-[405px] bg-white border border-[#DEE2E7] rounded-[6px] p-[16px] flex flex-col justify-between ">
+              <img src="\src\assets\Tech\Camera.png" alt="Camera" class="w-[202.4px] h-[202.4px] object-contain">
+              <div class="flex flex-col flex-1 justify-end">
+                <!-- Prcing -->
+                <div class="flex flex-row items-baseline gap-[8px] mb-[6px]">
+                  <span class="text-[#1C1C1C] font-semibold text-[16px]">$99.50</span>
+                  <span class="text-[#8B96A5] text-[16px] line-through">$1128.00</span>
+                </div>
+
+                <!-- Rating -->
+                <div class="flex flex-row items-center gap-[6px] mb-[10px] relative">
+                  <span class="text-orange-400">★★★★</span>
+                  <span class="text-gray-400">★</span>
+                  <span class="text-orange-400">7.5</span>
+                  <img src="\src\assets\favorite_border.png" alt="Border heart"
+                    class="w-[28px] h-[28px] absolute right-0 border border-[#DEE2E7] rounded-[4px] p-[6px]">
+                </div>
+
+                <div class="text-[#606060] text-[16px] leading-[24px] font-[400px]">
+                  <p>GoPro HERO6 4K Action</p>
+                  <p>Camera - Black</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 6  -->
+            <div
+              class="relative left-[60px] w-[295px] h-[405px] bg-white border border-[#DEE2E7] rounded-[6px] p-[16px] flex flex-col justify-between ">
+              <img src="\src\assets\Tech\iphone.png" alt="iphone" class="w-[202.4px] h-[202.4px] object-contain">
+              <div class="flex flex-col flex-1 justify-end">
+                <!-- Prcing -->
+                <div class="flex flex-row items-baseline gap-[8px] mb-[6px]">
+                  <span class="text-[#1C1C1C] font-semibold text-[16px]">$99.50</span>
+                </div>
+
+                <!-- Rating -->
+                <div class="flex flex-row items-center gap-[6px] mb-[10px] relative">
+                  <span class="text-orange-400">★★★★</span>
+                  <span class="text-gray-400">★</span>
+                  <span class="text-orange-400">7.5</span>
+                  <img src="\src\assets\favorite_border.png" alt="Border heart"
+                    class="w-[28px] h-[28px] absolute right-0 border border-[#DEE2E7] rounded-[4px] p-[6px]">
+                </div>
+
+                <div class="text-[#606060] text-[16px] leading-[24px] font-[400px]">
+                  <p>GoPro HERO6 4K Action </p>
+                  <p>Camera - Black</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-row gap-[16px]">
+            <!-- Item 7  -->
+            <div
+              class="relative left-[60px] w-[295px] h-[405px] bg-white border border-[#DEE2E7] rounded-[6px] p-[16px] flex flex-col justify-between ">
+              <img src="\src\assets\Tech\Laptop.png" alt="Laptop" class="w-[202.4px] h-[202.4px] object-contain">
+              <div class="flex flex-col flex-1 justify-end">
+                <!-- Prcing -->
+                <div class="flex flex-row items-baseline gap-[8px] mb-[6px]">
+                  <span class="text-[#1C1C1C] font-semibold text-[16px]">$99.50</span>
+                  <span class="text-[#8B96A5] text-[16px] line-through">$1128.00</span>
+                </div>
+
+                <!-- Rating -->
+                <div class="flex flex-row items-center gap-[6px] mb-[10px] relative">
+                  <span class="text-orange-400">★★★★</span>
+                  <span class="text-gray-400">★</span>
+                  <span class="text-orange-400">7.5</span>
+                  <img src="\src\assets\favorite_border.png" alt="Border heart"
+                    class="w-[28px] h-[28px] absolute right-0 border border-[#DEE2E7] rounded-[4px] p-[6px]">
+                </div>
+
+                <div class="text-[#606060] text-[16px] leading-[24px] font-[400px]">
+                  <p>GoPro HERO6 4K Action </p>
+                  <p>Camera - Black</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 8  -->
+            <div
+              class="relative left-[60px] w-[295px] h-[405px] bg-white border border-[#DEE2E7] rounded-[6px] p-[16px] flex flex-col justify-between ">
+              <img src="\src\assets\Tech\Watch.png" alt="Watch" class="w-[202.4px] h-[202.4px] object-contain">
+              <div class="flex flex-col flex-1 justify-end">
+                <!-- Prcing -->
+                <div class="flex flex-row items-baseline gap-[8px] mb-[6px]">
+                  <span class="text-[#1C1C1C] font-semibold text-[16px]">$99.50</span>
+                  <span class="text-[#8B96A5] text-[16px] line-through">$1128.00</span>
+                </div>
+
+                <!-- Rating -->
+                <div class="flex flex-row items-center gap-[6px] mb-[10px] relative">
+                  <span class="text-orange-400">★★★★</span>
+                  <span class="text-gray-400">★</span>
+                  <span class="text-orange-400">7.5</span>
+                  <img src="\src\assets\favorite_border.png" alt="Border heart"
+                    class="w-[28px] h-[28px] absolute right-0 border border-[#DEE2E7] rounded-[4px] p-[6px]">
+                </div>
+
+                <div class="text-[#606060] text-[16px] leading-[24px] font-[400px]">
+                  <p>GoPro HERO6 4K Action </p>
+                  <p>Camera - Black</p>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Item 9  -->
+            <div
+              class="relative left-[60px] w-[295px] h-[405px] bg-white border border-[#DEE2E7] rounded-[6px] p-[16px] flex flex-col justify-between ">
+              <img src="\src\assets\electronics-gadgets\phone-red.png" alt="Phone"
+                class="w-[202.4px] h-[202.4px] object-contain">
+              <div class="flex flex-col flex-1 justify-end">
+                <!-- Prcing -->
+                <div class="flex flex-row items-baseline gap-[8px] mb-[6px]">
+                  <span class="text-[#1C1C1C] font-semibold text-[16px]">$99.50</span>
+                </div>
+
+                <!-- Rating -->
+                <div class="flex flex-row items-center gap-[6px] mb-[10px] relative">
+                  <span class="text-orange-400">★★★★</span>
+                  <span class="text-gray-400">★</span>
+                  <span class="text-orange-400">7.5</span>
+                  <img src="\src\assets\favorite_border.png" alt="Border heart"
+                    class="w-[28px] h-[28px] absolute right-0 border border-[#DEE2E7] rounded-[4px] p-[6px]">
+                </div>
+
+                <div class="text-[#606060] text-[16px] leading-[24px] font-[400px]">
+                  <p>GoPro HERO6 4K Action</p>
+                  <p> Camera - Black</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <section class="relative top-[160px] left-[120px] flex flex-row pl-[520px] gap-[10px]">
+          <div class=" flex flex-row items-center justify-between bg-white border px-5 border-gray-300 rounded-[6px]">
+            <input type="text" placeholder="show 10" class="w-[125px] h-[40px] placeholder-black">
+            <img src="\src\assets\drop-down.png" alt="image" class="relative w-[12px] h-[7.41px] top-[8.29] left-[6px]">
+          </div>
+          <div class="flex flex-row w-[217px] h-[40px] items-center text-center bg-white rounded-[6px]">
+            <button class="w-[44px] h-[40px] rounded-l-[6px] border border-gray-300">&lt;</button>
+            <button class="w-[44px] h-[40px]  border border-gray-300">1</button>
+            <button class="w-[44px] h-[40px] border border-gray-300">2</button>
+            <button class="w-[44px] h-[40px] border border-gray-300">3</button>
+            <button class="w-[44px] h-[40px] rounded-r-[6px] border border-gray-300">&gt;</button>
+          </div>
+        </section>
+      </section>
+
+
+    </section>
+  </main>
+  <!-- 3rd Page End here -->
+
+  <!-- 4th Page start here ✅ -->
+  <main class="relative w-[1180px] top-[220px]">
+    <div
+      class="absolute left-[130px] flex flex-row gap-2 font-[400px] text-[16px] leading-[24px] tracking-[-0.2px] text-[#8B96A5]">
+      <p>Home &gt;</p>
+      <p>Clothings &gt;</p>
+      <p>Men’s wear &gt;</p>
+      <p>Summer clothing</p>
+    </div>
+
+    <!-- Shirt -->
+    <section
+      class="relative left-[130px] w-[1180px] h-[580px] rounded-[6px] top-[30px] bg-white border border-[#DEE2E7]">
+
+      <div class="flex flex-row">
+
+        <div class="flex flex-col w-[380px] h-[380px] p-[15px] ">
+          <!-- Shirt Image -->
+          <img src="\src\assets\cloth\image5.png" alt="shirt" class="w-[345px] h-[345px] ">
+
+          <!-- Multiple shirt images -->
+          <div class="flex flex-row gap-[10px] p-[7px] ">
+            <div class="w-[56px] h-[56px] border border-[#DEE2E7] rounded-[6px]">
+              <img src="\src\assets\cloth\image5.png" alt="shirt" class="w-[48px] h-[48px]">
+            </div>
+
+            <div class="w-[56px] h-[56px] border border-[#DEE2E7] rounded-[6px]">
+              <img src="\src\assets\cloth\white-shirt.png" alt="shirt" class="w-[48px] h-[48px]">
+            </div>
+
+            <div class="w-[56px] h-[56px] border border-[#DEE2E7] rounded-[6px]">
+              <img src="\src\assets\cloth\halfshirt.png" alt="shirt" class="w-[48px] h-[48px]">
+            </div>
+
+            <div class="w-[56px] h-[56px] border border-[#DEE2E7] rounded-[6px]">
+              <img src="\src\assets\cloth\shirtfull.png" alt="shirt" class="w-[48px] h-[48px] ">
+            </div>
+
+            <div class="w-[56px] h-[56px] border border-[#DEE2E7] rounded-[6px]">
+              <img src="\src\assets\cloth\foldedshirt.png" alt="shirt" class="w-[48px] h-[48px]">
+            </div>
+
+            <div class="w-[56px] h-[56px] border border-[#DEE2E7] rounded-[6px]">
+              <img src="\src\assets\cloth\image5.png" alt="shirt" class="w-[48px] h-[48px]">
+            </div>
+          </div>
+        </div>
+
+        <!-- Second section -->
+        <div class="w-[430px] h-[514px] pt-[10px]">
+
+          <div>
+            <!-- for Tick -->
+            <span class="text-[#00B517]">✓</span>
+            <span class="text-[#00B517]">In stock</span>
+          </div>
+
+          <p class="font-semibold font-[600px] text-[20px] text-black leading-[28px] tracking-[-0.2px]">Mens Long Sleeve
+            T-shirt Cotton Base<br> Layer Slim Muscle</p>
+
+          <!-- Rating -->
+          <div class="flex flex-row w-[366px] h-[20px] gap-[5px]">
+            <span class="text-orange-400">★★★★</span>
+            <span class="text-gray-400">★</span>
+            <span class="text-orange-400">9.3</span>
+            <span class="text-gray-400">•</span>
+            <img src="\src\assets\Action\Message.png" alt="review" class="w[16.67px] h-[16.67px] pt-[3px]">
+            <span class="text-gray-400">32 reviews</span>
+            <span class="text-gray-400">•</span>
+            <img src="\src\assets\sold.png" alt="sold items" class="w[16.67px] h-[16.67px] pt-[3px]">
+            <span class="text-gray-400">154 sold</span>
+          </div>
+
+          <!-- Prices -->
+          <div
+            class="relative flex flex-row w-[430px] h-[72px] pr-[20px] pl-[20px] justify-between items-center top-[10px] bg-[#FFF0DF] divide-x divide-[#BDC1C8] gap-[5px] rounded-[2px]">
+            <div class="flex flex-col w-[70px] h-[42px] flex-1">
+              <span class="w-[64px] h-[22px] text-[#FA3434] text-[18px] font-[600px] font-semibold ">$98.00</span>
+              <span class="font-[400px] text-[13px] text-[#606060]">50-100 pcs</span>
+            </div>
+
+            <div class="flex flex-col w-[70px] h-[42px] flex-1">
+              <span class="w-[64px] h-[22px] text-black text-[18px] font-[600px] font-semibold">$90.00</span>
+              <span class="font-[400px] text-[13px] text-[#606060]">100-700 pcs</span>
+            </div>
+
+            <div class="flex flex-col w-[70px] h-[42px] flex-1">
+              <span class="w-[64px] h-[22px] text-black text-[18px] font-[600px] font-semibold">$78.00</span>
+              <span class="font-[400px] text-[13px] text-[#606060]">700+ pcs</span>
+            </div>
+          </div>
+
+
+          <!-- ✅ -->
+          <div class="relative w-[430px] border-b border-gray-300 h-[296px] pt-[7px] pb-[10px] gap-[10px]">
+            <div class="w-[223px] h-[19px] flex flex-row pb-[45px] pt-[20px] items-start">
+              <p class="w-[134px] text-[#8B96A5] font-[400px] text-[16px] shrink-0">Price: </p>
+              <p class="text-[#505050] text-[16px] font-[400px]">Negotiable</p>
+            </div>
+
+
+            <div class="flex flex-col pb-[15px] gap-[12px] border-t border-gray-300">
+              <div class="w-[248px] h-[19px] flex flex-row items-start ">
+                <p class="w-[134px] text-[#8B96A5] font-[400px] text-[16px] shrink-0">Type: </p>
+                <p class="text-[#505050] text-[16px] font-[400px]">Classic shoes</p>
+              </div>
+
+              <div class="w-[248px] h-[19px] flex flex-row items-start ">
+                <p class="w-[134px] text-[#8B96A5] font-[400px] text-[16px] shrink-0">Material: </p>
+                <p class=" text-[#505050] text-[16px] font-[400px]">Plastic material</p>
+              </div>
+
+              <div class="w-[248px] h-[19px] flex flex-row items-start ">
+                <p class="w-[134px] text-[#8B96A5] font-[400px] text-[16px] shrink-0">Design: </p>
+                <p class="text-[#505050] text-[16px] font-[400px]">Modern nice</p>
+              </div>
+            </div>
+
+
+
+            <div class="flex flex-col relative w-[430px] h-[296px] border-t border-[#E0E0E0] pt-[12px] gap-[12px]">
+              <div class="relative w-[329px] h-[38px] flex flex-row items-start">
+                <p class="w-[134px] text-[#8B96A5] font-[400px] text-[16px]">Customization: </p>
+                <p class=" text-[#505050] text-[16px] font-[400px]">Customized logo and <br>design custom packages</p>
+              </div>
+
+              <div class="relative w-[244px] h-[19px] flex flex-row  items-start ">
+                <p class="w-[134px] text-[#8B96A5] font-[400px] text-[16px] shrink-0">Protection: </p>
+                <p class="text-[#505050] text-[16px] font-[400px]">Refund Policy</p>
+              </div>
+
+              <div class="relaive w-[295px] h-[19px] flex flex-row items-start ">
+                <p class="w-[134px] text-[#8B96A5] font-[400px] text-[16px] shrink-0">Warranty: </p>
+                <p class="text-[#505050] text-[16px] font-[400px]">2 years full warranty </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- 3rd section -->
+        <div class="flex flex-col">
+          <div
+            class="relative w-[280px] h-[325px] flex flex-col left-[30px] gap-[10px] top-[30px] rounded-[6px] border border-gray-300">
+            <div class=" w-[247px] ml-[9px] pb-[15px] border-b border-gray-200">
+              <div class="flex flex-row w-[208px] h-[48px] mt-[20px] ml-[20px]  gap-[5px]">
+                <p
+                  class="w-[48px] h-[48px] pl-[13px] rounded-[4px] bg-[#C6F3F1] text-[#4CA7A799] font-semibold text-[28px] font-[600px] items-center">
+                  R</p>
+                <p class=" font-[400px] text-[16px] pl-[10px]">Supplier<br>Guanjoi Trading LLC</p>
+              </div>
+            </div>
+
+            <div class="flex flex-row h-[24px] pl-[20px] gap-5">
+              <img src="\src\assets\Flags\Germany.png" alt="Germany" class=" relative top-[5px] w-[21px] h-[15px] ">
+              <p>Germany, Berlin</p>
+            </div>
+
+            <!-- Verified seller -->
+            <div class="flex flex-row pl-[20px] gap-5">
+              <img src="\src\assets\verified_user.png" alt="verification"
+                class=" relative top-[5px] w-[15px] h-[18.33px]">
+              <p>Verified Seller</p>
+            </div>
+
+            <div class="flex flex-row pl-[20px] gap-5">
+              <img src="\src\assets\language.png" alt="World-wide" class=" relative top-[5px] w-[16.67px] h-[16.67px]">
+              <p>Worldwide shipping</p>
+            </div>
+
+            <button
+              class=" relative w-[248px] h-[40px] top-[20px] rounded-[6px] bg-linear-to-r from-[#127FFF] to-[#0067FF] ml-[20px]">Send
+              Inquiry</button>
+            <button
+              class="relative w-[248px] h-[40px] top-[20px] rounded-[6px] border border-[#DEE2E7] ml-[20px]">Seller's
+              Profile</button>
+
+          </div>
+          <div class="relative left-[90px] top-[35px] flex flex-row gap-[10px]">
+            <img src="\src\assets\favorite_border.png" alt="border">
+            <p class="text-[#0D6EFD] font-[500px] text-[16px]">Save for later</p>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+    <!-- Description & you may like-->
+    <section class="w-[1180px] h-[618px] relative top-[40px] left-[130px] flex flex-row gap-[20px]">
+      <!-- 1 section Description (Left section)-->
+      <section class="absolute w-[880px] flex flex-col bg-white border border-[#E3E8EE] rounded-[6px] p-[20px]">
+        <div class="flex flex-row border-b border-[#E3E8EE] gap-[30px] pb-[1px] mb-[10px]">
+          <p class="w-[93px]  h-[38px] text-[#0D6EFD] border-b-2 border-[#0D6EFD] font-[500px] text-[16px] px-[4px]">
+            Description</p>
+          <p class="w-[93px]  h-[38px] text-[#8B96A5] font-[500px] text-[16px] px-[4px]">Reviews</p>
+          <p class="w-[93px]  h-[38px] text-[#8B96A5]  font-[500px] text-[16px] px-[4px]">Shipping</p>
+          <p class="w-[93px]  h-[38px] text-[#8B96A5] font-[500px] text-[16px] px-[4px]">About seller</p>
+        </div>
+        <p
+          class=" w-[798px] h-[168px] text-[#505050] text-[16px] font-[400px] leading-[24px] -tracking-[0.2px] mb-[24px]">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
+          Ut enim ad minim veniam, <br>
+          Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+
+        <!-- Table -->
+        <div class="mb-[24px]">
+          <table class="w-[567px] border border-[#E0E7E9] rounded-[4px] table-fixed ">
+            <tbody>
+              <tr class="border-b border-[#E0E7E9]">
+                <td class="w-[204px] bg-[#EFF2F4] text-[#505050] px-[5px] py-[5px] text-[16px] font-[400px] shrink-0">
+                  Model</td>
+                <td class="text-[#505050] px-[5px] py-[5px] text-[16px]">#8786867</td>
+              </tr>
+
+              <tr class="border-b border-[#E0E7E9]">
+                <td class="w-[204px] bg-[#EFF2F4] text-[#505050] px-[5px] py-[5px] text-[16px] font-[400px] shrink-0">
+                  Style</td>
+                <td class="text-[#505050] px-[5px] py-[5px] text-[16px]">Classic style</td>
+              </tr>
+
+              <tr class="border-b border-[#E0E7E9]">
+                <td class="w-[204px] bg-[#EFF2F4] text-[#505050] px-[5px] py-[5px] text-[16px] font-[400px] shrink-0">
+                  Certificate</td>
+                <td class="text-[#505050] px-[5px] py-[5px] text-[16px]">ISO-898921212</td>
+              </tr>
+
+              <tr class="border-b border-[#E0E7E9]">
+                <td class="w-[204px] bg-[#EFF2F4] text-[#505050] px-[5px] py-[5px] text-[16px] font-[400px] shrink-0">
+                  Size</td>
+                <td class="text-[#505050] px-[5px] py-[5px] text-[16px]">34mm x 450mm x 19mm</td>
+              </tr>
+
+              <tr class="border-b border-[#E0E7E9]">
+                <td class="w-[204px] bg-[#EFF2F4] text-[#505050] px-[5px] py-[5px] text-[16px] font-[400px] shrink-0">
+                  Memory</td>
+                <td class="text-[#505050] px-[5px] py-[5px] text-[16px]">36GB RAM</td>
+              </tr>
+
+            </tbody>
+          </table>
+
+        </div>
+
+        <div class="flex flex-col gap-[10px] text-[#505050] text-[16px] font-[400px]">
+          <p>✓ Some great feature name here</p>
+          <p>✓ Lorem ipsum dolor sit amet, consectetur </p>
+          <p>✓ Duis aute irure dolor in reprehenderit</p>
+          <p>✓ Some great feature name here</p>
+        </div>
+
+      </section>
+
+      <!-- You may like items  -->
+      <section
+        class="absolute w-[280px] h-[553px] left-[900px] bg-white border border-[#DEE2E7] rounded-[6px] p-[16px] flex flex-col gap-[16px]">
+        <p class="text-[#1C1C1C] font-semibold text-[16px] mb-[4px]">You may like</p>
+
+        <!-- Item 1 -->
+        <div class="flex flex-row gap-[12px] items-center">
+          <img src="\src\assets\cloth\coat.png" alt="Coat"
+            class="w-[54.76px] h-[54.76px] border border-[#E0E0E0] rounded-[6px] p-[4px] object-contain shrink-0">
+          <div class="flex flex-col">
+            <p class="text-[#1C1C1C] text-[16px] font-[400px] leading-[24px]">Men Blazers Sets <br>Elegant Formal</p>
+            <span class="text-[#8B96A5] text-[16px] font-[400px] leading-[24px]">$7.00 - $99.50</span>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="flex flex-row gap-[12px] items-center">
+          <img src="\src\assets\cloth\shirt.png" alt="shirt"
+            class="w-[54.76px] h-[54.76px] border border-[#E0E0E0] rounded-[6px] p-[4px] object-contain shrink-0">
+          <div class="flex flex-col">
+            <p class="text-[#1C1C1C] text-[16px] font-[400px] leading-[24px]">Men Shirt Sleeve<br>Polo Contrast </p>
+            <span class="text-[#8B96A5] text-[16px] font-[400px] leading-[24px]">$7.00 - $99.50</span>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="flex flex-row gap-[12px] items-center">
+          <img src="\src\assets\cloth\hoodie.png" alt="hoodie"
+            class="w-[54.76px] h-[54.76px] border border-[#E0E0E0] rounded-[6px] p-[4px] object-contain shrink-0">
+          <div class="flex flex-col">
+            <p class="text-[#1C1C1C] text-[16px] font-[400px] leading-[24px]">Apple Watch Series <br>Space Gray</p>
+            <span class="text-[#8B96A5] text-[16px] font-[400px] leading-[24px]">$7.00 - $99.50</span>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="flex flex-row gap-[12px] items-center">
+          <img src="\src\assets\cloth\blue-shirt.png" alt="blue-shirt"
+            class="w-[54.76px] h-[54.76px] border border-[#E0E0E0] rounded-[6px] p-[4px] object-contain shrink-0">
+          <div class="flex flex-col">
+            <p class="text-[#1C1C1C] text-[16px] font-[400px] leading-[24px]">Basketball Crew <br>Socks Long Stuff</p>
+            <span class="text-[#8B96A5] text-[16px] font-[400px] leading-[24px]">$7.00 - $99.50</span>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="flex flex-row gap-[12px] items-center">
+          <img src="\src\assets\cloth\bag.png" alt="bag"
+            class="w-[54.76px] h-[54.76px] border border-[#E0E0E0] rounded-[6px] p-[4px] object-contain shrink-0">
+          <div class="flex flex-col">
+            <p class="text-[#1C1C1C] text-[16px] font-[400px] leading-[24px]">New Summer Men's <br>castrol T-Shirts </p>
+            <span class="text-[#8B96A5] text-[16px] font-[400px] leading-[24px]">$7.00 - $99.50</span>
+          </div>
+        </div>
+
+      </section>
+
+    </section>
+
+    <!-- Related Products -->
+    <section
+      class="relative w-[1180px] h-[325px] left-[130px] top-[60px] bg-white border border-[#DEE2E7] rounded-[6px] p-[20px]">
+      <p class="text-[#1C1C1C] font-semibold font-[600px] leading-[28px] text-[20px] mb-[20px]">Related products</p>
+
+      <div class="flex flex-row justify-between gap-[18px]">
+
+        <!-- Product 1 -->
+        <div class="flex flex-col w-[172px] h-[254px]">
+          <img src="\src\assets\cloth\wallet.png" alt="wallet"
+            class="w-[155px] h-[155px] bg-[#EEEEEE] rounded-[6px] flex items-center justify-center p-[15px] mb-[12px] shrink-0">
+          <p class="text-[#505050] text-[16px] font-[400px] leading-[100%]">Xiaomi Redmi 8 <br>Original</p>
+          <span class="text-[#8B96A5] text-[16px] mt-[6px] font-[400px]">$32.00-$40.00</span>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="flex flex-col w-[172px] h-[254px]">
+          <img src="\src\assets\Tech\Watch.png" alt="watch"
+            class="w-[155px] h-[155px] bg-[#EEEEEE] rounded-[6px] flex items-center justify-center p-[15px] mb-[12px] shrink-0">
+          <p class="text-[#505050] text-[16px] font-[400px] leading-[100%]">Xiaomi Redmi 8<br>Original</p>
+          <span class="text-[#8B96A5] text-[16px] mt-[6px] font-[400px]">$32.00-$40.00</span>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="flex flex-col w-[172px] h-[254px]">
+          <img src="\src\assets\electronics-gadgets\headphone.png" alt="headphone"
+            class="w-[155px] h-[155px] bg-[#EEEEEE] rounded-[6px] flex items-center justify-center p-[15px] mb-[12px] shrink-0">
+          <p class="text-[#505050] text-[16px] font-[400px] leading-[100%]">Xiaomi Redmi 8<br>Original</p>
+          <span class="text-[#8B96A5] text-[16px] mt-[6px] font-[400px]">$32.00-$40.00</span>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="flex flex-col w-[172px] h-[254px]">
+          <img src="\src\assets\cloth\Jeans.png" alt="jeans"
+            class="w-[155px] h-[155px] bg-[#EEEEEE] rounded-[6px] flex items-center justify-center p-[15px] mb-[12px] shrink-0">
+          <p class="text-[#505050] text-[16px] font-[400px] leading-[100%]">Xiaomi Redmi 8<br>Original</p>
+          <span class="text-[#8B96A5] text-[16px] mt-[6px] font-[400px]">$32.00-$40.00</span>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="flex flex-col w-[172px] h-[254px]">
+          <img src="\src\assets\electronics-gadgets\electric-kattle.png" alt="electric kattle"
+            class="w-[155px] h-[155px] bg-[#EEEEEE] rounded-[6px] flex items-center justify-center p-[15px] mb-[12px] shrink-0">
+          <p class="text-[#505050] text-[16px] font-[400px] leading-[100%]">Xiaomi Redmi 8<br>Original</p>
+          <span class="text-[#8B96A5] text-[16px] mt-[6px] font-[400px]">$32.00-$40.00</span>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="flex flex-col w-[172px] h-[254px]">
+          <img src="\src\assets\interior\home-appliance.png" alt="home-appliance"
+            class="w-[155px] h-[155px] bg-[#EEEEEE] rounded-[6px] flex items-center justify-center p-[15px] mb-[12px] shrink-0">
+          <p class="text-[#505050] text-[16px] font-[400px] leading-[100%]">Xiaomi Redmi 8 <br>Original</p>
+          <span class="text-[#8B96A5] text-[16px] mt-[6px] font-[400px]">$32.00-$40.00</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- shopnow setion -->
+    <section
+      class="relative w-[1180px] h-[120px] top-[90px] left-[130px] flex flex-row rounded-[6px] items-center justify-between px-[20px]"
+      style="background: linear-gradient(65deg, #237CFF 58%, #005ADE 58.3%);">
+
+      <div>
+        <p class="text-white font-semibold text-[24px] leading-[24px]">Super discount on more than 100 USD</p>
+        <p class="text-white text-opacity-80 text-[16px] font-[400px]">Have you ever finally just write dummy info</p>
+      </div>
+
+      <div>
+        <button class="bg-[#FF9017] text-white text-[16px] font-[500px] px-[24px] py-[10px] rounded-[6px]">Shop
+          now</button>
+      </div>
+
+    </section>
+
+  </main>
+  <!-- Page 4 ends here -->
+
+
+  <!-- PAge 5 cart Section Start here -->
+  <main class="relative top-[370px]">
+    <!-- header section -->
+    <header class="relative w-[1440px] bg-white ">
+      <div class="relative w-350 mx-auto px-15 py-5 flex flex-row items-center justify-between flex-wrap gap-6">
+        <!-- Logo Brand -->
+        <div>
+          <img src="\src\assets\logo-colored.png" alt="Brand Logo" class="relative w-37.5 h-11.5 left-[30px]">
+        </div>
+
+        <!-- Action Section where Profile,Message, Order, Cart -->
+        <div class="relative flex items-center gap-6 left-5 -top-1/4">
+
+          <!-- Profile Section -->
+          <div class="flex flex-col items-center text-center">
+            <img alt="Profile" src="\src\assets\Action\Profile.png" class="w-5">
+            <span class="text-sm text-gray-600">Profile</span>
+          </div>
+
+          <!-- Message Section -->
+          <div class="flex flex-col items-center text-center">
+            <img alt="Message" src="\src\assets\Action\Message.png" class="w-5">
+            <span class="text-sm text-gray-600">Message</span>
+          </div>
+
+          <!-- Orders Section -->
+          <div class="flex flex-col items-center text-center">
+            <img alt="Order" src="\src\assets\Action\Orders.png" class="w-5">
+            <span class="text-sm text-gray-600">Orders</span>
+          </div>
+
+          <!-- Cart Section -->
+          <div class="flex flex-col items-center text-center">
+            <img alt="Cart" src="\src\assets\Action\Cart.png" class="w-5">
+            <span class="text-sm text-gray-600">My Cart</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <p class="pl-[130px] pt-[20px] text-[24px] font-[600px] font-semibold leading-[32px]">My Cart(3)</p>
+
+    <section class="flex flex-row">
+      <!-- Left section -->
+      <div
+        class="relative w-[880px] top-[20px] left-[130px] h-[552px] bg-white border border-[#DEE2E7] rounded-[6px] p-[20px] flex flex-col gap-[20px]">
+        <div class="flex flex-row justify-between items-start border-b border-[#DEE2E7] pb-[20px]">
+
+          <!-- item 1  -->
+          <div class="flex flex-row gap-[16px]">
+            <img src="\src\assets\cloth\shirt.png" alt="shirt"
+              class="w-[80px] h-[80px] border border-[#DEE2E7] bg-[#FFFFFF] rounded-[6px] flex items-center justify-center p-[8px] shrink-0">
+            <div class="flex flex-col gap-[4px]">
+              <p class="text-[#1C1C1C] font-[500px] text-[16px] leading-[22px]">T-shirts with multiple colors, for men
+                and lady</p>
+              <p class="text-[#8B96A5] font-[400px] text-[16px] leading-[24px]">Size: medium, Color: blue, Material:
+                Plastic<br>Seller: Artel Market</p>
+              <div class="flex flex-row gap-[10px] mt-[8px]">
+                <button
+                  class="text-[#FA3434] border border-[#DEE2E7] rounded-[4px] px-[10px] py-[4px] text-[13px] font-[500px]">Remove</button>
+                <button
+                  class="text-[#0D6EFD] border border-[#DEE2E7] rounded-[4px] px-[10px] py-[4px] text-[13px] font-[500px]">Save
+                  for later</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price & Quantity -->
+          <div class="flex flex-col items-end gap-[12px] shrink-0">
+            <!-- Price -->
+            <p class="text-[#1C1C1C] font-[500px] text-[16px]">$78.99</p>
+            <!-- Quantity -->
+            <div
+              class="flex flex-row items-center justify-between border border-[#DEE2E7] rounded-[6px] px-[12px] py-[6px] w-[100px]">
+              <button class="text-[#1C1C1C] text-[16px] font-[400px]">Qty: 9</button>
+              <img src="\src\assets\drop-down.png" alt="drop-down" class="w-[12px] h-[12px]">
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="flex flex-row justify-between items-start border-b border-[#DEE2E7] pb-[20px]">
+          <div class="flex flex-row gap-[16px]">
+            <img src="\src\assets\cloth\bag.png" alt="bag"
+              class="w-[80px] h-[80px] border border-[#DEE2E7] bg-[#FFFFFF] rounded-[6px] flex items-center justify-center p-[8px] shrink-0">
+            <div class="flex flex-col gap-[4px]">
+              <p class="text-[#1C1C1C] font-[500px] text-[16px] leading-[22px]">T-shirts with multiple colors, for men
+                and lady</p>
+              <p class="text-[#8B96A5] font-[400px] text-[16px] leading-[24px]">Size: medium, Color: blue, Material:
+                Plastic<br>Seller: Artel Market</p>
+              <div class="flex flex-row gap-[10px] mt-[8px]">
+                <button
+                  class="text-[#FA3434] border border-[#DEE2E7] rounded-[4px] px-[10px] py-[4px] text-[13px] font-[500px]">Remove</button>
+                <button
+                  class="text-[#0D6EFD] border border-[#DEE2E7] rounded-[4px] px-[10px] py-[4px] text-[13px] font-[500px]">Save
+                  for later</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price & Quantity -->
+          <div class="flex flex-col items-end gap-[12px] shrink-0">
+            <!-- Price -->
+            <p class="text-[#1C1C1C] font-[500px] text-[16px]">$39.00</p>
+            <!-- Quantity -->
+            <div
+              class="flex flex-row items-center justify-between border border-[#DEE2E7] rounded-[6px] px-[12px] py-[6px] w-[100px]">
+              <button class="text-[#1C1C1C] text-[16px] font-[400px]">Qty: 3</button>
+              <img src="\src\assets\drop-down.png" alt="drop-down" class="w-[12px] h-[12px]">
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Item 3 -->
+        <div class="flex flex-row justify-between items-start border-b border-[#DEE2E7] pb-[20px]">
+          <div class="flex flex-row gap-[16px]">
+            <img src="\src\assets\interior\Lamp.png" alt="lamp"
+              class="w-[80px] h-[80px] border border-[#DEE2E7] bg-[#FFFFFF] rounded-[6px] flex items-center justify-center p-[8px] shrink-0">
+            <div class="flex flex-col gap-[4px]">
+              <p class="text-[#1C1C1C] font-[500px] text-[16px] leading-[22px]">T-shirts with multiple colors, for men
+                and lady</p>
+              <p class="text-[#8B96A5] font-[400px] text-[16px] leading-[24px]">Size: medium, Color: blue, Material:
+                Plastic <br>Seller: Artel Market</p>
+              <div class="flex flex-row gap-[10px] mt-[8px]">
+                <button
+                  class="text-[#FA3434] border border-[#DEE2E7] rounded-[4px] px-[10px] py-[4px] text-[13px] font-[500px]">Remove</button>
+                <button
+                  class="text-[#0D6EFD] border border-[#DEE2E7] rounded-[4px] px-[10px] py-[4px] text-[13px] font-[500px]">Save
+                  for later</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price & Quantity -->
+          <div class="flex flex-col items-end gap-[12px] shrink-0">
+            <!-- Price -->
+            <p class="text-[#1C1C1C] font-[500px] text-[16px]">$170.50</p>
+            <!-- Quantity -->
+            <div
+              class="flex flex-row items-center justify-between border border-[#DEE2E7] rounded-[6px] px-[12px] py-[6px] w-[100px]">
+              <button class="text-[#1C1C1C] text-[16px] font-[400px]">Qty: 1</button>
+              <img src="\src\assets\drop-down.png" alt="drop-down" class="w-[12px] h-[12px]">
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-row justify-between items-center pt-[5px]">
+          <button
+            class="bg-linear-to-r from-[#127FFF] to-[#0067FF] text-white font-[500px] text-[16px] px-[16px] py-[10px] rounded-[6px] flex flex-row items-center gap-[8px]">
+            <span>←</span> Back to shop
+          </button>
+          <button
+            class="text-[#0D6EFD] border border-[#E3E8EE] font-[500px] text-[16px] px-[16px] py-[10px] rounded-[6px]">Remove
+            all</button>
+        </div>
+
+      </div>
+
+      <!-- Right section -->
+      <div class="relative flex flex-col gap-[16px] w-[280px] left-[150px] top-[20px]">
+
+        <!-- Coupon -->
+        <div class="w-[280px] bg-white border border-[#DEE2E7] rounded-[6px] p-[16px] flex flex-col gap-[10px]">
+          <p class="text-[#505050] text-[16px] font-[400px]">Have a coupon?</p>
+          <div class="flex flex-row border border-[#DEE2E7] rounded-[6px]">
+            <input type="text" placeholder="Add coupon"
+              class="w-full px-[12px] py-[10px] text-[15px] text-[#1C1C1C] placeholder-[#8B96A5]">
+            <buton
+              class="text-[#0D6EFD] font-[500px] border-l border-[#DEE2E7] px-[14px] py-[10px] text-[15px] bg-white">
+              Apply</buton>
+          </div>
+        </div>
+
+        <!-- Checkout -->
+        <div class="w-[280px] bg-white border border-[#DEE2E7] rounded-[6px] p-[16px] flex flex-col gap-[16px]">
+          <div class="flex flex-col gap-[10px] border-b border-[#DEE2E7] pb-[16px]">
+            <div class="flex flex-row justify-between text-[16px]">
+              <p class="text-[#505050]">Subtotal:</p>
+              <p class="text-[#505050] font-[400px] text-[16px]">$1403.97</p>
+            </div>
+
+            <div class="flex flex-row justify-between text-[16px]">
+              <p class="text-[#505050]">Discount:</p>
+              <p class="text-[#FA3434]">- $60.00</p>
+            </div>
+
+            <div class="flex flex-row justify-between text-[16px]">
+              <p class="text-[#505050]">Tax:</p>
+              <p class="text-[#00B517]">+ $14.00</p>
+            </div>
+          </div>
+
+          <div class="flex flex-row justify-between text-[16px]">
+            <p class="text-[#1C1C1C] font-[600px] fonrt-semibold text-[16px]">Total:</p>
+            <p class="text-[#1C1C1C] font-[600px] fonrt-semibold text-[20px] leading-[28px]">$1357.97</p>
+          </div>
+
+          <button
+            class="w-full bg-[#00B517] text-white font-[500px] text-[18px] py-[12px] rounded-[8px] text-center">Checkout</button>
+
+          <!--payment Cards/Methods -->
+          <div class="flex flex-row justify-center items-center gap-[8px] pt-[4px]">
+            <img src="\src\assets\payment-methods\american-express.png" alt="American Express"
+              class="w-[34px] h-[22px] border border-gray-100 rounded-[3px] p-[2px] flex items-center justify-center object-contain">
+            <img src="\src\assets\payment-methods\payment-logo.png" alt="payment-logo"
+              class="w-[34px] h-[22px] border border-gray-100 rounded-[3px] p-[2px] flex items-center justify-center object-contain">
+            <img src="\src\assets\payment-methods\paypal.png" alt="paypal-logo"
+              class="w-[34px] h-[22px] border border-gray-100 rounded-[3px] p-[2px] flex items-center justify-center object-contain">
+            <img src="\src\assets\payment-methods\visa.png" alt="visa-card"
+              class="w-[34px] h-[22px] border border-gray-100 rounded-[3px] p-[2px] flex items-center justify-center object-contain">
+            <img src="\src\assets\payment-methods\pay.png" alt="pay-logo"
+              class="w-[34px] h-[22px] border border-gray-100 rounded-[3px] p-[2px] flex items-center justify-center object-contain">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Secure payment, Customer support,Free delivery -->
+    <section class="relative flex flex-row left-[130px] top-[40px] w-[1180px] gap-[30px] mb-[20px]">
+      <!-- Secure payment -->
+      <div class="flex flex-row items-center gap-[12px]">
+        <div class="w-[48px] h-[48px] rounded-full bg-[#DEE2E7] flex items-center justify-center shrink-0">
+          <img src="\src\assets\payment-security.png" alt="Secure-payment" class="w-[16px] h-[21px] ">
+        </div>
+        <div class="flex flex-col">
+          <p class="text-[#1C1C1C] font-[400px] text-[16px] leading-[24px]">Secure payment</p>
+          <p class="text-[#A9ACB0] text-[16px] leading-[24px]">Have you ever finally just </p>
+        </div>
+
+      </div>
+
+      <!-- Customer support -->
+      <div class="flex flex-row items-center gap-[12px]">
+        <div class="w-[48px] h-[48px] rounded-full bg-[#DEE2E7] flex items-center justify-center shrink-0">
+          <img src="\src\assets\Action\Message.png" alt="mesage" class="w-[16px] h-[21px] ">
+        </div>
+        <div class="flex flex-col">
+          <p class="text-[#1C1C1C] font-[400px] text-[16px] leading-[24px]">Customer support</p>
+          <p class="text-[#A9ACB0] text-[16px] leading-[24px]">Have you ever finally just </p>
+        </div>
+      </div>
+
+      <!-- Free Delivery -->
+      <div class="flex flex-row items-center gap-[12px]">
+        <div class="w-[48px] h-[48px] rounded-full bg-[#DEE2E7] flex items-center justify-center shrink-0">
+          <img src="\src\assets\free-delivery.png" alt="free-delivery" class="w-[22px] h-[16px] ">
+        </div>
+        <div class="flex flex-col">
+          <p class="text-[#1C1C1C] font-[400px] text-[16px] leading-[24px]">Free delivery</p>
+          <p class="text-[#A9ACB0] text-[16px] leading-[24px]">Have you ever finally just</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Saved for later -->
+    <section
+      class="relative w-[1180px] h-[475px] left-[130px] top-[50px] bg-white border border-[#DEE2E7] rounded-[6px] p-[20px] flex flex-col gap-[20px]">
+
+      <p class="text-[#1C1C1C] font-semibold text-[20px]">Saved for later</p>
+      <div class="flex flex-row justify-between gap-[20px] w-full">
+        <!-- item 1 tablet-->
+        <div class="flex flex-col w-[255px]">
+          <div
+            class="w-[255px] h-[240px] bg-[#F7F8FA] border border-[#EEEEEE] rounded-[6px] flex items-center justify-center p-[20px] mb-[12px] shrink-0">
+            <img src="\src\assets\Tech\phone.png" alt="tablet" class="w-[255px] h-[255px] object-contain">
+          </div>
+
+          <div class="flex flex-col gap-[2px]">
+            <p class="text-[#1C1C1C] font-semibold text-[18px]">$99.50</p>
+            <p class="text-[#606060] text-[15px] font-normal leading-[24px]">GoPro HERO6 4K Action <br> Camera - Black
+            </p>
+
+            <!-- Button -->
+            <div
+              class="w-[156.58px] h-[40px] flex flex-row items-center justify-center gap-[8px] border border-[#DEE2E7] rounded-[6px] px-[14px] py-[8px] mt-[12px]">
+              <img src="\src\assets\shopping_cart.png" alt="shopping-cart" class="w-[16px] h-[16px]">
+              <button class="text-[#0D6EFD] font-[500px] text-[16px]">Move to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2  mobile-->
+        <div class="flex flex-col w-[255px]">
+          <div
+            class="w-[255px] h-[240px] bg-[#F7F8FA] border border-[#EEEEEE] rounded-[6px] flex items-center justify-center p-[20px] mb-[12px] shrink-0">
+            <img src="\src\assets\Tech\iphone.png" alt="iphone" class="w-[255px] h-[255px] object-contain">
+          </div>
+
+          <div class="flex flex-col gap-[2px]">
+            <p class="text-[#1C1C1C] font-semibold text-[18px]">$99.50</p>
+            <p class="text-[#606060] text-[15px] font-normal leading-[24px]">GoPro HERO6 4K Action <br>Camera - Black
+            </p>
+
+            <!-- Button -->
+            <div
+              class="w-[156.58px] h-[40px] flex flex-row items-center justify-center gap-[8px] border border-[#DEE2E7] rounded-[6px] px-[14px] py-[8px] mt-[12px]">
+              <img src="\src\assets\shopping_cart.png" alt="shopping-cart" class="w-[16px] h-[16px]">
+              <button class="text-[#0D6EFD] font-[500px] text-[16px]">Move to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3  mobile-->
+        <div class="flex flex-col w-[255px]">
+          <div
+            class="w-[255px] h-[240px] bg-[#F7F8FA] border border-[#EEEEEE] rounded-[6px] flex items-center justify-center p-[20px] mb-[12px] shrink-0">
+            <img src="\src\assets\Tech\Watch.png" alt="Watch" class="w-[255px] h-[255px] object-contain">
+          </div>
+
+          <div class="flex flex-col gap-[2px]">
+            <p class="text-[#1C1C1C] font-semibold text-[18px]">$99.50</p>
+            <p class="text-[#606060] text-[15px] font-normal leading-[24px]">GoPro HERO6 4K Action<br> Camera - Black
+            </p>
+
+            <!-- Button -->
+            <div
+              class="w-[156.58px] h-[40px] flex flex-row items-center justify-center gap-[8px] border border-[#DEE2E7] rounded-[6px] px-[14px] py-[8px] mt-[12px]">
+              <img src="\src\assets\shopping_cart.png" alt="shopping-cart" class="w-[16px] h-[16px]">
+              <button class="text-[#0D6EFD] font-[500px] text-[16px]">Move to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4  mobile-->
+        <div class="flex flex-col w-[255px]">
+          <div
+            class="w-[255px] h-[240px] bg-[#F7F8FA] border border-[#EEEEEE] rounded-[6px] flex items-center justify-center p-[20px] mb-[12px] shrink-0">
+            <img src="\src\assets\Tech\Laptop.png" alt="laptop" class="w-[255px] h-[255px] object-contain">
+          </div>
+
+          <div class="flex flex-col gap-[2px]">
+            <p class="text-[#1C1C1C] font-semibold text-[18px]">$99.50</p>
+            <p class="text-[#606060] text-[15px] font-normal leading-[24px]">GoPro HERO6 4K Action<br>Camera - Black</p>
+
+            <!-- Button -->
+            <div
+              class="w-[156.58px] h-[40px] flex flex-row items-center justify-center gap-[8px] border border-[#DEE2E7] rounded-[6px] px-[14px] py-[8px] mt-[12px]">
+              <img src="\src\assets\shopping_cart.png" alt="shopping-cart" class="w-[16px] h-[16px]">
+              <button class="text-[#0D6EFD] font-[500px] text-[16px]">Move to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Shop now -->
+    <section
+      class="relative w-[1180px] h-[120px] top-[90px] left-[130px] flex flex-row rounded-[6px] items-center justify-between px-[20px]"
+      style="background: linear-gradient(65deg, #237CFF 58%, #005ADE 58.3%);">
+
+      <div>
+        <p class="text-white font-semibold text-[24px] leading-[24px]">Super discount on more than 100 USD</p>
+        <p class="text-white text-opacity-80 text-[16px] font-[400px]">Have you ever finally just write dummy info</p>
+      </div>
+
+      <div>
+        <button class="bg-[#FF9017] text-white text-[16px] font-[500px] px-[24px] py-[10px] rounded-[6px]">Shop
+          now</button>
+      </div>
+
+    </section>
+  </main>
+
+
+
+  <!-- Subscribe our newletter Section✅ -->
+  <div class="relative w-[1440px] h-[190px] top-[530px] bg-gray-300">
+    <div class="relative w-[1140px] h-[190px] top-[50px] pl-[400px]">
+      <p
+        class="relative w-[268px] h-[28px] text-[20px] left-[85px] font-[600px] font-semibold leading-[28px] tracking[-0.2px]">
+        Subscribe on our newsletter</p>
+      <p class="text-[#606060] font-[400px] text-[16px] leading-[24px] tracking[-0.2px]">Get daily news on upcoming
+        offers from many suppliers all over the world</p>
+      <div class="flex flex-row">
+        <div class="relative w-[392px] h-[40px] left-[70px] top-[10px]">
+          <img src="\src\assets\email.png" alt="Email" class="absolute left-[10px] top-[10px]">
+          <input type="email" placeholder="Email"
+            class="color-[#8B96A5] w-[274px] h-[40px] rounded-[6px] pl-[30px] border border-gray-200 bg-white">
+        </div>
+        <button
+          class="relative w-[110px] h-[40px] right-[35px] top-[10px] rounded-[6px] bg-gradient-to-r from-[#127FFF] to-[#0067FF]">Subscribe</button>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section ✅-->
+  <footer class="relative w-[1440px] h-81 top-130.5 bg-[#FFFFFF]">
+
+
+
+    <!-- Social Media  -->
+    <div class="absolute flex flex-col w-67.5 h-39.25 top-10 left-32.25">
+      <img src="\src\assets\logo-colored.png" alt="Logo image" class="w-37.5 h-11.5 ">
+      <p class="text-gray-600">Best information about the company gies here but now lorem ipsum is</p>
+      <div class="flex flex-row space-x-2.5">
+        <img src="\src\assets\Social-Media\facebook.png" alt="Facebook Image">
+        <img src="\src\assets\Social-Media\twitter.png" alt="Twitter Image">
+        <img src="\src\assets\Social-Media\linkedin.png" alt="Linkedin">
+        <img src="\src\assets\Social-Media\instagram.png" alt="Instagram">
+        <img src="\src\assets\Social-Media\youtube.png" alt="Youtube">
+      </div>
+
+    </div>
+
+    <div class=" absolute flex flex-row top-10 left-105 gap-14">
+      <!-- About -->
+      <div class="flex flex-col w-20.25 h-34.25">
+        <p class="text-[#1C1C1C]">About</p>
+        <p class="text-gray-500">About Us</p>
+        <p class="text-gray-500">Find store</p>
+        <p class="text-gray-500">Categories</p>
+        <p class="text-gray-500">Blogs</p>
+      </div>
+
+      <!-- Partnership -->
+      <div class="flex flex-col w-22.5 h-34.25">
+        <p class="text-[#1C1C1C]">Partnership</p>
+        <p class="text-gray-500">About Us</p>
+        <p class="text-gray-500">Find store</p>
+        <p class="text-gray-500">Categories</p>
+        <p class="text-gray-500">Blogs</p>
+      </div>
+
+      <!-- Information -->
+      <div class="flex flex-col w-27 h-34.25 ">
+        <p class="text-[#1C1C1C]">Information</p>
+        <p class="text-gray-500">Help Center</p>
+        <p class="text-gray-500">Money Refund</p>
+        <p class="text-gray-500">Shipping</p>
+        <p class="text-gray-500">Contact us</p>
+      </div>
+
+      <!-- For User -->
+      <div class="flex flex-col w-19.5 h-34.25">
+        <p class="text-[#1C1C1C]">For users</p>
+        <p class="text-gray-500">Login</p>
+        <p class="text-gray-500">Register</p>
+        <p class="text-gray-500">Settings</p>
+        <p class="text-gray-500">My Orders</p>
+      </div>
+
+      <!-- Get App -->
+      <div class="flex flex-col w-31 h-32.25 gap-2 ">
+        <p>Get App</p>
+        <img src="\src\assets\Get-app\apple-store.png" alt="Apple store" class="w-31 h-10.5">
+        <img src="\src\assets\Get-app\play-store.png" alt="play Store" class=" w-31 h-10.5 ">
+      </div>
+    </div>
+
+    <!-- Copyright Section -->
+    <div class="relative w-full h-17 top-64 border border-[#DEE2E7] border-[1px] bg-[#DEE2E7] ">
+      <div class="absolute w-294 h-6 top-5.75 left-32">
+        <p class="text-[#606060]">©2023 Ecommerce</p>
+      </div>
+
+      <div class="absolute right-32 top-5.75 flex flex-row items-center gap-2 ">
+        <img src="\src\assets\Flags\US.png" alt="US flag" class=" absolute w-6 h-4.25 top-0.75 -left-7.25">
+        <p class="text-[#606060]">English</p>
+        <img src="\src\assets\up.png" alt="Popup" class="absolute w-3 h-[7.41px] top-[8.3px] left-15">
+      </div>
+    </div>
+  </footer>
+
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
