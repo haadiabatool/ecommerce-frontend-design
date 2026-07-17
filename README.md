@@ -1,9 +1,32 @@
-# 🛒 E-Commerce Frontend Website
+# 🛒 E-Commerce Frontend Website<br>
 
-A modern e-commerce frontend website built using HTML, JavaScript, and Tailwind CSS.
+A modern e-commerce frontend website built using HTML, JavaScript, and Tailwind CSS.<br>
 
-🛠️ Technologies Used
-HTML5
-CSS3
-JavaScript
-Tailwind CSS
+🛠️ Technologies Used<br>
+HTML5<br>
+CSS3<br>
+JavaScript<br>
+Tailwind CSS<br>
+
+## 📸 Preview<br>
+
+![E-Commerce Website Screenshot](./assets/images/project-preview.png)<br>
+
+## ✨ Features<br>
+
+- 🎨 Clean and modern UI design<br>
+- 📱 Responsive layout<br>
+- 🛒 Hero banner with product showcase<br>
+- 📂 Product categories section<br>
+- 🔥 Deals & Offers section<br>
+- 🏠 Home & Outdoor products
+- 💻 Consumer Electronics section
+- 📦 Recommended Products
+- 📩 Supplier Inquiry Form (Frontend)
+- 🖱️ Smooth hover effects and transitions
+- 🎯 Organized and reusable code structure
+
+
+## 👩‍💻 Author
+
+**Haadia Batool**
