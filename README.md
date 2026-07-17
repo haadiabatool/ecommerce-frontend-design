@@ -10,7 +10,7 @@ Tailwind CSS<br>
 
 ## 📸 Preview<br>
 
-![E-Commerce Website Screenshot](./assets/images/project-preview.png)<br>
+![E-Commerce Website Screenshot](./github-ecommerce-website.jpeg)<br>
 
 ## ✨ Features<br>
 
