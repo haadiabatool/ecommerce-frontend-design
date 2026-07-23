@@ -10,12 +10,11 @@ Tailwind CSS<br>
 
 ## 📸 Preview<br>
 
-![E-Commerce Website Screenshot](./github-ecommerce-website.jpeg)<br>
+![E-Commerce Website Screenshot](./github-ecommerce.jpeg)<br>
 
 ## ✨ Features<br>
 
 - 🎨 Clean and modern UI design<br>
-- 📱 Responsive layout<br>
 - 🛒 Hero banner with product showcase<br>
 - 📂 Product categories section<br>
 - 🔥 Deals & Offers section<br>
